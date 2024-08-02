@@ -36,9 +36,10 @@ A visual example of Anim-Director.
 
 
 ## 🌰 More Examples
-
 https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo1.mp4
+
 https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo2.mp4
+
 https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo3.mp4
 
 
