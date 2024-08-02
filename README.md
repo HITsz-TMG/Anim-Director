@@ -37,17 +37,9 @@ A visual example of Anim-Director
 
 ## 🌰 More Examples
 
-<video width="700" controls>
-  <source src="assets/demo1.mp4" type="video/mp4">
-</video>
-
-<video width="700" controls>
-  <source src="assets/demo2.mp4" type="video/mp4">
-</video>
-
-<video width="700" controls>
-  <source src="assets/demo3.mp4" type="video/mp4">
-</video>
+https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo1.mp4
+https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo2.mp4
+https://github.com/HITsz-TMG/Anim-Director/blob/main/assets/demo3.mp4
 
 
 ## Citation
