@@ -32,7 +32,7 @@ Given a narrative, Anim-Director first polishes the narrative and generates the 
 ## 📀 Visual Example
 
 <p align="center"> <img src="assets/visualeg.png" width="700px"> </p>
-A visual example of Anim-Director
+A visual example of Anim-Director.
 
 
 ## 🌰 More Examples
