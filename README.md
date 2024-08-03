@@ -39,15 +39,15 @@ A visual example of Anim-Director.
 
 <div align="center">
 <video src="https://github.com/user-attachments/assets/6bce4aa8-716a-470d-9670-5c69779f178a" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo1.mp4">Teddy Travel</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo1.mp4">Demo 1</a>.</b>
 </div>
 <div align="center">
 <video src="https://github.com/user-attachments/assets/40324268-96a9-46e7-a649-f5fd55746022" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo2.mp4">Teddy Travel</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo2.mp4">Demo 2</a>.</b>
 </div>
 <div align="center">
 <video src="https://github.com/user-attachments/assets/4d89c602-1caa-41b4-81ac-2c1915617426" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo3.mp4">Teddy Travel</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo3.mp4">Demo 3</a>.</b>
 </div>
 
 
