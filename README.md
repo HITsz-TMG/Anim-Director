@@ -39,7 +39,11 @@ A visual example of Anim-Director.
 
 <div align="center">
 <video src="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo1.mp4" controls="controls" width="500" height="300"></video>
+</div>
+<div align="center">
 <video src="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo2.mp4" controls="controls" width="500" height="300"></video>
+</div>
+<div align="center">
 <video src="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo3.mp4" controls="controls" width="500" height="300"></video>
 </div>
 
