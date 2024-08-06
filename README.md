@@ -29,25 +29,114 @@ _**[Yunxin Li](https://github.com/YunxinLi), [Haoyuan Shi](https://github.com/Ha
 Given a narrative, Anim-Director first polishes the narrative and generates the director’s scripts using GPT-4. GPT-4 interacts with the image generation tools to produce the scene images through Image + Text → Image. Subsequently, the Anim-Director produces videos based on the generated scene images and textual prompts, i.e., Image + Text → Video. To improve the quality of images and videos, we realize deep interaction between LMMs and generative tools, enabling GPT-4 to refine, evaluate, and select the best candidate by self-reflection reasoning pathway.
 
 
-## 📀 Visual Example
+## 🌈 Visual Example
 
 <p align="center"> <img src="assets/visualeg.png" width="700px"> </p>
 A visual example of Anim-Director.
+
+## 🎨 Comparison 
+<table class="center">
+<tr>
+  <td style="text-align:center;width: 50%" colspan="1"><b>DPT-T2I</b></td>
+  <td style="text-align:center;width: 50%" colspan="1"><b>CustomDiffusion</b></td>
+  <td style="text-align:center;width: 50%" colspan="1"><b>Anim Director(Ours)</b></td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_1_Segment_1.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_1_Segment_1.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_1.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #1: Tim stands with an earnest look, facing Tim's mother who is kneeling and focused on her gardening.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_1_Segment_2.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_1_Segment_2.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_2.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #2: Tim is holding a red round ball with a smile under a tree, surrounded by vibrant green grass.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_2_Segment_1.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_2_Segment_1.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_1.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #3: Tim sets the red round ball aside and looks onwards,the big oak's wide shadow covering him.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_2_Segment_2.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_2_Segment_2.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_2.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #4: Tim stands amidst dazzling flowers and looks around, holding a green rectangular shovel.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_3_Segment_1.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_3_Segment_1.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_1.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #5: Tim puts down the rectangular shovel and continues his search around the colorful flowers.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_3_Segment_2.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_3_Segment_2.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_2.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #6: Tim walks from the colorful flowers to the old swing set.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_4_Segment_1.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_4_Segment_1.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_1.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #7: Tim carefully navigates through thick grass around the faded old swing set.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_4_Segment_2.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_4_Segment_2.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_2.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #8: Tim finds the blue toy car under leaves near the old swing set, his face lighting up with joy.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_5_Segment_1.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_5_Segment_1.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_1.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #9: Tim is preparing to return to his yard with the blue toys he found.</td>
+</tr>
+<tr>
+  <td><img src="assets/demos/Tim/DPT-T2I/Scene_5_Segment_2.png" width="300"></td>
+  <td><img src="assets/demos/Tim/CustomDiffusion/Scene_5_Segment_2.png" width="400"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_2.png" width="400"></td>
+</tr>
+<tr>
+  <td colspan="3" align="center">Scene #10: Tim is immersed in play in the cluttered yard,the blue toy car is put into the yard.</td>
+</tr>
+</table>
 
 
 ## 🌰 More Examples
 
 <div align="center">
 <video src="https://github.com/user-attachments/assets/6bce4aa8-716a-470d-9670-5c69779f178a" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo1.mp4">Demo 1</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demos/videos/demo1.mp4">Demo 1</a>.</b>
 </div>
 <div align="center">
 <video src="https://github.com/user-attachments/assets/40324268-96a9-46e7-a649-f5fd55746022" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo2.mp4">Demo 2</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demos/videos/demo2.mp4">Demo 2</a>.</b>
 </div>
 <div align="center">
 <video src="https://github.com/user-attachments/assets/4d89c602-1caa-41b4-81ac-2c1915617426" controls="controls" width="500" height="300"></video>
-<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demo3.mp4">Demo 3</a>.</b>
+<b>A compressed version of generated <a href="https://github.com/HITsz-TMG/Anim-Director/blob/9a7e7bd6e4ada44eaeabeed6f3bd173bf2a1dd19/assets/demos/videos/demo3.mp4">Demo 3</a>.</b>
 </div>
 
 
