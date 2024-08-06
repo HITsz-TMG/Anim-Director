@@ -44,7 +44,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_1_Segment_1.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_1_Segment_1.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_1.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #1: Tim stands with an earnest look, facing Tim's mother who is kneeling and focused on her gardening.</td>
@@ -52,7 +52,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_1_Segment_2.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_1_Segment_2.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_2.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_1_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #2: Tim is holding a red round ball with a smile under a tree, surrounded by vibrant green grass.</td>
@@ -60,7 +60,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_2_Segment_1.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_2_Segment_1.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_1.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #3: Tim sets the red round ball aside and looks onwards,the big oak's wide shadow covering him.</td>
@@ -68,7 +68,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_2_Segment_2.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_2_Segment_2.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_2.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #4: Tim stands amidst dazzling flowers and looks around, holding a green rectangular shovel.</td>
@@ -76,7 +76,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_3_Segment_1.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_3_Segment_1.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_1.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #5: Tim puts down the rectangular shovel and continues his search around the colorful flowers.</td>
@@ -84,7 +84,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_3_Segment_2.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_3_Segment_2.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_2.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_3_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #6: Tim walks from the colorful flowers to the old swing set.</td>
@@ -92,7 +92,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_4_Segment_1.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_4_Segment_1.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_1.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #7: Tim carefully navigates through thick grass around the faded old swing set.</td>
@@ -100,7 +100,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_4_Segment_2.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_4_Segment_2.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_2.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_4_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #8: Tim finds the blue toy car under leaves near the old swing set, his face lighting up with joy.</td>
@@ -108,7 +108,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_5_Segment_1.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_5_Segment_1.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_1.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #9: Tim is preparing to return to his yard with the blue toys he found.</td>
@@ -116,7 +116,7 @@ A visual example of Anim-Director.
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_5_Segment_2.png" width="250"></td>
   <td><img src="assets/demos/Tim/CustomDiffusion/Scene_5_Segment_2.png" width="250"></td>
-  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_2.jpg" width="250"></td>
+  <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
   <td colspan="3" align="center">Scene #10: Tim is immersed in play in the cluttered yard,the blue toy car is put into the yard.</td>
