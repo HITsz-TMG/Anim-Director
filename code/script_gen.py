@@ -443,7 +443,7 @@ class ScriptGenerator:
 
 if __name__ == '__main__':
     story_file = './code/story/TinyStoriesV2-Chosen.json'
-    story_list = [32, 34, 54]
+    story_list = [32, 34, 54] # modify as you want
     prompt_file = './code/prompt/script_gen.txt'
     result_file = './code/result/script.json'
     gpt_organization="your gpt_organization"
