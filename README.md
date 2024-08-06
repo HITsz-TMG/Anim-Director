@@ -6,7 +6,7 @@
 <!-- ## <b><font color="red"> TaleCrafter </font>: Interactive Story Visualization with Multiple Characters</b> -->
 
 
-_**[YunXIn Li](https://github.com/YunxinLi), [Haoyuan Shi](https://github.com/HaoyuanShi), Baotian Hu, Longyue Wang,<br>Jiashun Zhu, Jinyi Xu, Zhen Zhao, and Min Zhang***_
+_**[Yunxin Li](https://github.com/YunxinLi), [Haoyuan Shi](https://github.com/HaoyuanShi), Baotian Hu*, Longyue Wang,<br>Jiashun Zhu, Jinyi Xu, Zhen Zhao, and Min Zhang**_
   
 (* Corresponding Authors)
 
@@ -55,7 +55,7 @@ A visual example of Anim-Director.
 ```bib
 @misc{li2024animdirector,
       title={TaleCrafter: Interactive Story Visualization with Multiple Characters}, 
-      author={YunXIn Li and Haoyuan Shi and Baotian Hu and Longyue Wang and Jiashun Zhu and Jinyi Xu and Zhen Zhao and Min Zhang},
+      author={Yunxin Li and Haoyuan Shi and Baotian Hu and Longyue Wang and Jiashun Zhu and Jinyi Xu and Zhen Zhao and Min Zhang},
       year={2024},
 }
 ```
