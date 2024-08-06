@@ -63,7 +63,7 @@ A visual example of Anim-Director.
   <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_2_Segment_1.jpg" width="350"></td>
 </tr>
 <tr>
-  <td colspan="3" align="center">Scene #3: Tim sets the red round ball aside and looks onwards,the big oak's wide shadow covering him.</td>
+  <td colspan="3" align="center">Scene #3: Tim sets the red round ball aside and looks onwards, the big oak's wide shadow covering him.</td>
 </tr>
 <tr>
   <td><img src="assets/demos/Tim/DPT-T2I/Scene_2_Segment_2.png" width="250"></td>
@@ -119,7 +119,7 @@ A visual example of Anim-Director.
   <td><img src="assets/demos/Tim/AnimDirector(Ours)/Scene_5_Segment_2.jpg" width="350"></td>
 </tr>
 <tr>
-  <td colspan="3" align="center">Scene #10: Tim is immersed in play in the cluttered yard,the blue toy car is put into the yard.</td>
+  <td colspan="3" align="center">Scene #10: Tim is immersed in play in the cluttered yard, the blue toy car is put into the yard.</td>
 </tr>
 </table>
 
