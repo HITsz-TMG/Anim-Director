@@ -145,6 +145,7 @@ A visual example of Anim-Director.
 <details>
   <summary><h3>Setup</h3></summary>
 <h4>Prepare Environment</h4>
+
 ```bash
 conda create -n AnimDirector python==3.10.11
 conda activate AnimDirector
@@ -157,6 +158,7 @@ Sign up for an Imgur account. Obtain your Imgur client_id, client_secret, access
 <details>
   <summary><h3>Inference for scripts generation</h3></summary>
 Run the following command to get the scripts:
+
 ```python
 python code/script_gen.py
 ```
@@ -167,6 +169,7 @@ python code/script_gen.py
   <summary><h3>Inference for T2I with MidJourney </h3></summary>
 Since Midjourney does not provide official API services, we used a third-party API platform [GoAPI](https://www.goapi.ai) for mj_api_key. 
 Run the following command to get the (T+I)2V results:
+
 ```python
 python code/image_gen_mj.py
 ```
@@ -176,6 +179,7 @@ python code/image_gen_mj.py
 <details>
   <summary><h3>Inference for T2I with [Stable Diffusion 3](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_3) </h3></summary>
 Run the following command to get the (T+I)2V results:
+
 ```python
 python code/image_gen_pia.py
 ```
@@ -185,6 +189,7 @@ python code/image_gen_pia.py
 <details>
   <summary><h3>Inference for (T+I)2V with with [PIA](https://github.imc.re/open-mmlab/PIA)</h3></summary> 
 Run the following command to get the (T+I)2V results:
+
 ```python
 python code/video_gen.py
 ```
