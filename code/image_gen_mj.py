@@ -105,7 +105,7 @@ class ImageGenerator:
                                         print("Invalid image ID, trying again...")
                                 else:
                                     print("No image ID found, trying again...")
-                            save_dir = os.path.join(os.path.join('/code/result/image/mj', str(id)), 'Characters')
+                            save_dir = os.path.join(os.path.join('code/result/image/mj', str(id)), 'Characters')
                             os.makedirs(save_dir, exist_ok=True)
                             save_path = os.path.join(save_dir, name.replace(' ', '_') + '.jpg') # Download Image
                             download_processor = ImageProcessor() 
@@ -183,7 +183,7 @@ class ImageGenerator:
                                     print("Invalid image ID, trying again...")
                             else:
                                 print("No image ID found, trying again...")
-                        save_dir = os.path.join(os.path.join('/code/result/image/mj', str(id)), 'Settings')
+                        save_dir = os.path.join(os.path.join('code/result/image/mj', str(id)), 'Settings')
                         os.makedirs(save_dir, exist_ok=True)
                         save_path = os.path.join(save_dir, place.replace(' ', '_') + '.jpg')
                         download_processor = ImageProcessor() 
@@ -208,7 +208,7 @@ class ImageGenerator:
         mj_api = MidJourneyAPI(self.mj_api_key)
         uploader = Imgur(self.imgur_client_id, self.imgur_client_secret, self.imgur_access_token, self.imgur_refresh_token)
         processor = ImageProcessor()
-        save_dir = f'/code/result/image/mj/{id}/Scenes'
+        save_dir = f'code/result/image/mj/{id}/Scenes'
 
         story2scene_answer = self.results[str(id)]['story2scene']['final_answer']
         scene_numbers = [int(num) for num in re.findall(r"Scene (\d+)", story2scene_answer)]
@@ -265,18 +265,18 @@ class ImageGenerator:
                         orientation_suffix = 'back' if 'back' in orientation else 'front'
                         name_filename = name.replace(' ', '_')
                         character_url = self.results[str(id)]['character2image'][name][orientation_suffix + '_url']
-                        character_path = f"/code/result/image/mj/{id}/Characters/{name_filename}_{orientation_suffix}.jpg"
+                        character_path = f"code/result/image/mj/{id}/Characters/{name_filename}_{orientation_suffix}.jpg"
                     except Exception as e:
                         name_filename = name.replace(' ', '_')
                         character_url = self.results[str(id)]['character2image'][name]['front_url']
-                        character_path = f"/code/result/image/mj/{id}/Characters/{name_filename}_front.jpg"
+                        character_path = f"code/result/image/mj/{id}/Characters/{name_filename}_front.jpg"
                     character_urls.append(character_url)
                     character_paths.append(character_path)  
                     name_to_orientation_suffix[name] = orientation_suffix          
 
                 if (len(character_urls) > 1): # Use Segment Anything to change the background of the character cutout to transparent color to prevent white edges
                     sceneno_filename = sceneno.replace(' ', '_')
-                    character_path = processor.stitch_images(character_paths, f"/code/result/image/mj/{id}/Scenes/Characters/{sceneno_filename}.jpg")
+                    character_path = processor.stitch_images(character_paths, f"code/result/image/mj/{id}/Scenes/Characters/{sceneno_filename}.jpg")
                     AutoMasker = AutoMask(seg_url=r'http://127.0.0.1:7860/sam/sam-predict')
                     os.environ['HTTP_PROXY'] = '' # AutoMask needn't a proxy
                     os.environ['HTTPS_PROXY'] = ''
@@ -323,7 +323,7 @@ class ImageGenerator:
                     character_path = character_paths[0]
                 setting_url = self.results[str(id)]['setting2image'][place]['url']
                 place_filename = place.replace(' ', '_')
-                setting_path = (f"/code/result/image/mj/{id}/Settings/{place_filename}.jpg")
+                setting_path = (f"code/result/image/mj/{id}/Settings/{place_filename}.jpg")
 
                 character = ''
                 for name in names:
@@ -542,7 +542,7 @@ class ImageGenerator:
         mj_api = MidJourneyAPI(self.mj_api_key)
         uploader = Imgur(self.imgur_client_id, self.imgur_client_secret, self.imgur_access_token, self.imgur_refresh_token)
         processor = ImageProcessor()
-        save_dir = os.path.join(os.path.join('/code/result/image/mj', str(id)), 'Scenes')
+        save_dir = os.path.join(os.path.join('code/result/image/mj', str(id)), 'Scenes')
 
         story2scene_answer = self.results[str(id)]['story2scene']['final_answer']
         scene_numbers = [int(num) for num in re.findall(r"Scene (\d+)", story2scene_answer)]
@@ -596,7 +596,7 @@ class ImageGenerator:
                     for name in set(names).intersection(set(original_names)):
                         name_filename = name.replace(' ', '_')
                         character_url = self.results[str(id)]['character2image'][name]['front_url']
-                        character_path = f"/code/result/image/mj/{id}/Characters/{name_filename}_front.jpg"
+                        character_path = f"code/result/image/mj/{id}/Characters/{name_filename}_front.jpg"
                         character_urls.append(character_url)
                         character_paths.append(character_path)
                         transition_names.append(name)
@@ -606,7 +606,7 @@ class ImageGenerator:
 
                     if (len(character_urls) > 1): # Use Segment Anything to change the background of the character cutout to transparent color to prevent white edges
                         sceneno_filename = sceneno.replace(' ', '_')
-                        character_path = processor.stitch_images(character_paths, f"/code/result/image/mj/{id}/Scenes/Characters/{sceneno_filename}.jpg")
+                        character_path = processor.stitch_images(character_paths, f"code/result/image/mj/{id}/Scenes/Characters/{sceneno_filename}.jpg")
                         AutoMasker = AutoMask(seg_url=r'http://127.0.0.1:7860/sam/sam-predict')
                         os.environ['HTTP_PROXY'] = '' # AutoMask needn't a proxy
                         os.environ['HTTPS_PROXY'] = ''
@@ -653,7 +653,7 @@ class ImageGenerator:
                         character_path = character_paths[0]
                     setting_url = self.results[str(id)]['setting2image'][original_place]['url']
                     place_filename = original_place.replace(' ', '_')
-                    setting_path = (f"/code/result/image/mj/{id}/Settings/{place_filename}.jpg")
+                    setting_path = (f"code/result/image/mj/{id}/Settings/{place_filename}.jpg")
 
                     character = ''
                     for name in transition_names:
@@ -850,7 +850,7 @@ class ImageGenerator:
 
 if __name__ == '__main__':
     story_list = [32, 34, 54] # modify as you want
-    result_file = './code/result/script.json'
+    result_file = 'code/result/script.json'
     gpt_organization = "your gpt_organization"
     gpt_api_key = "your gpt_api_key"
     mj_api_key = "your mj_api_key"
