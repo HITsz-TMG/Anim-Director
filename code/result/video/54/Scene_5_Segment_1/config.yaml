@@ -1,0 +1,60 @@
+generate:
+  model_path: code/PIA/models/PIA/pia.ckpt
+  use_image: true
+  use_video: false
+  sample_width: 512
+  sample_height: 512
+  video_length: 16
+  use_lora: false
+  use_db: true
+  global_seed: 10201403011320481249
+  lora_path: ''
+  db_path: code/PIA/models/DreamBooth_LoRA/rcnzCartoon3d_v10.safetensors
+  lora_alpha: 0.5
+validation_data:
+  mask_sim_range:
+  - 0
+  cond_frame: 0
+  num_inference_steps: 25
+  img_mask: ''
+  input_name: Scene_5_Segment_1
+  validation_input_path: code/result/image/sd3/54/Scenes
+  save_path: code/result/video/54/Scene_5_Segment_1
+noise_scheduler_kwargs:
+  num_train_timesteps: 1000
+  beta_start: 0.00085
+  beta_end: 0.012
+  beta_schedule: linear
+  steps_offset: 1
+  clip_sample: false
+pretrained_model_path: code/PIA/models/StableDiffusion/
+unet_additional_kwargs:
+  use_motion_module: true
+  motion_module_resolutions:
+  - 1
+  - 2
+  - 4
+  - 8
+  unet_use_cross_frame_attention: false
+  unet_use_temporal_attention: false
+  motion_module_type: Vanilla
+  motion_module_kwargs:
+    num_attention_heads: 8
+    num_transformer_block: 1
+    attention_block_types:
+    - Temporal_Self
+    - Temporal_Self
+    temporal_position_encoding: true
+    temporal_position_encoding_max_len: 32
+    temporal_attention_dim_div: 1
+    zero_initialize: true
+base: code/PIA/example/config/base.yaml
+prompts:
+- - '.
+
+    John (in'
+n_prompt:
+- wrong white balance, dark, sketches, worst quality, low quality, deformed, distorted,
+  disfigured, bad eyes, wrong lips, weird mouth, bad teeth, mutated hands and fingers,
+  bad anatomy, wrong anatomy, amputation, extra limb, missing limb, floating,limbs,
+  disconnected limbs, mutation, ugly, disgusting, bad_pictures, negative_hand-neg

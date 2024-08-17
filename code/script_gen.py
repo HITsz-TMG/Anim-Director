@@ -18,6 +18,7 @@ class ScriptGenerator:
         self.story = self.load_story()
         self.setup_proxy()
 
+
     def setup_proxy(self):
         try:
             if self.proxy:
@@ -34,6 +35,7 @@ class ScriptGenerator:
         except Exception as e:
             print(f"An error occurred while setting up the proxy: {e}")
 
+
     def load_variables(self):
         variables = {}
         with open(self.prompt_file, 'r') as file:
@@ -48,18 +50,22 @@ class ScriptGenerator:
                     variables[key] = eval(value)
         return variables
     
+
     def format_prompt(self, prompt):
         if prompt.startswith('f"') and prompt.endswith('"'):
             return prompt[2:-1]
         return prompt
 
+
     def load_story(self):
         with open(self.story_file, 'r') as file:
             return json.load(file)
 
+
     def save_results(self):
         with open(self.result_file, 'w') as file:
             json.dump(self.results, file, indent=4)
+
 
     def Story2Scene(self, id):
         if os.path.getsize(self.result_file) > 0:
@@ -441,13 +447,14 @@ class ScriptGenerator:
             self.Segment2Prompt(idNo)
             self.save_results()
 
+
 if __name__ == '__main__':
-    story_file = './code/story/TinyStoriesV2-Chosen.json'
+    story_file = './dataset/TinyStoriesV2-Chosen.json'
     story_list = [32, 34, 54] # modify as you want
     prompt_file = './code/prompt/script_gen.txt'
     result_file = './code/result/script.json'
-    gpt_organization="your gpt_organization"
-    gpt_api_key="your gpt_api_key"
+    gpt_organization = "your gpt_organization"
+    gpt_api_key = "your gpt_api_key"
     proxy = 'your proxy'
     scene_number = 10
 
