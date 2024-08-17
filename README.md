@@ -144,7 +144,7 @@ A visual example of Anim-Director.
 
 <details>
   <summary><h3>Attention</h3></summary>  
-Midjourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose Midjourney for T2I and Pika for (T+I)2V. 
+Midjourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose Midjourney for T2I and Pika for (T+I)2V.   
 Welcome to contact us for more details (including how to integrate Pika into our framework).
 </details>
 
@@ -180,7 +180,7 @@ bash download_bashscripts/2-RcnzCartoon.sh
 ```
 <h4>Prepare stable-diffusion-webui</h4>
 
-To use MJ for T2I, you need to prepare stable-diffusion-webui as instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+To use MJ for T2I, you need to prepare stable-diffusion-webui as instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).   
 After that, run bash code/StableDiffusion/webui.sh --nowebui
 
 <h4>Prepare Imgur API</h4>
@@ -195,13 +195,13 @@ Run the following command to get the scripts:
 ```python
 python code/script_gen.py
 ```
-- The generated scripts will be saved in ```code/result/scripts.json```.
+- The generated scripts will be saved as ```code/result/scripts.json```.
 </details>
 
 <details>
   <summary><h3>Inference for T2I with Midjourney </h3></summary>
 
-Since Midjourney does not provide official API services, we used a third-party API platform [GoAPI](https://www.goapi.ai) for mj_api_key. 
+Since Midjourney does not provide official API services, we use a third-party API platform [GoAPI](https://www.goapi.ai) for mj_api_key.   
 Run the following command to get the (T+I)2V results:
 
 ```python
@@ -233,7 +233,7 @@ Run the following command to get the (T+I)2V results:
 ```python
 python code/video_gen.py
 ```
-- The generated video will be saved in ```code/result/video```.
+- The generated videos will be saved in ```code/result/video```.
 </details>
 
 
