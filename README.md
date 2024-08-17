@@ -144,8 +144,10 @@ A visual example of Anim-Director.
 
 <details>
   <summary><h3>Attention</h3></summary>  
+
 Midjourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose Midjourney for T2I and Pika for (T+I)2V.   
 Welcome to contact us for more details (including how to integrate Pika into our framework).
+
 </details>
 
 <details>
