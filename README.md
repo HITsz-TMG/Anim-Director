@@ -182,8 +182,9 @@ bash download_bashscripts/2-RcnzCartoon.sh
 ```
 <h4>Prepare stable-diffusion-webui</h4>
 
-To use MJ for T2I, you need to prepare stable-diffusion-webui as instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).   
-After that, run 
+To use MJ for T2I, you need to prepare stable-diffusion-webui following instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).   
+After that, run:
+
 ```bash
 bash code/StableDiffusion/webui.sh --nowebui
 ```
@@ -191,7 +192,7 @@ bash code/StableDiffusion/webui.sh --nowebui
 <h4>Prepare Imgur API</h4>
 
 Sign up for an Imgur account.   
-Obtain your Imgur client_id, client_secret, access_token, refresh_token as the instructions [Here](https://github.com/Imgur/imgurpython).
+Obtain your Imgur client_id, client_secret, access_token, refresh_token following instructions [Here](https://github.com/Imgur/imgurpython).
 </details>
 
 <details>
