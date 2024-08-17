@@ -143,6 +143,11 @@ A visual example of Anim-Director.
 ## ⚡️ Usage
 
 <details>
+  <summary><h3>Attention</h3></summary>  
+MidJourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose MidJourney for T2I and Pika for (T+I)2V. Welcome to contact us for more details (including how to integrate Pika into our framework).
+</details>
+
+<details>
   <summary><h3>Setup</h3></summary>
 <h4>Prepare Environment</h4>
 
@@ -151,7 +156,32 @@ conda create -n AnimDirector python==3.10.11
 conda activate AnimDirector
 pip install -r requirements.txt
 ```
+To use Stable Diffusion 3 for T2I, you need to upgrade your Torch version along with all related packages.
+
+<h4>Prepare Checkpoints For PIA</h4>
+To use PIA for (T+I)2V, you need to prepare checkpoints as below.
+<li>Download the Stable Diffusion v1-5</li>
+
+```
+conda install git-lfs
+git lfs install
+git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
+```
+<li>Download PIA</li>
+```
+git clone https://huggingface.co/Leoxing/PIA models/PIA/
+```
+<li>Download Personalized Models</li>
+```
+bash download_bashscripts/2-RcnzCartoon.sh
+```
+<h4>Prepare stable-diffusion-webui</h4>
+
+To use MJ for T2I, you need to prepare stable-diffusion-webui as instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
+After that, run bash code/StableDiffusion/webui.sh --nowebui
+
 <h4>Prepare Imgur API</h4>
+
 Sign up for an Imgur account. Obtain your Imgur client_id, client_secret, access_token, refresh_token as the instructions [Here](https://github.com/Imgur/imgurpython).
 </details>
 
@@ -167,6 +197,7 @@ python code/script_gen.py
 
 <details>
   <summary><h3>Inference for T2I with MidJourney </h3></summary>
+
 Since Midjourney does not provide official API services, we used a third-party API platform [GoAPI](https://www.goapi.ai) for mj_api_key. 
 Run the following command to get the (T+I)2V results:
 
@@ -177,7 +208,10 @@ python code/image_gen_mj.py
 </details>
 
 <details>
-  <summary><h3>Inference for T2I with [Stable Diffusion 3](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_3) </h3></summary>
+  <summary><h3>
+
+  Inference for T2I with [Stable Diffusion 3](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_3) 
+  </h3></summary>
 Run the following command to get the (T+I)2V results:
 
 ```python
@@ -187,18 +221,17 @@ python code/image_gen_pia.py
 </details>
 
 <details>
-  <summary><h3>Inference for (T+I)2V with with [PIA](https://github.imc.re/open-mmlab/PIA)</h3></summary> 
+
+  <summary><h3>
+  
+  Inference for (T+I)2V with with [PIA](https://github.imc.re/open-mmlab/PIA)
+  </h3></summary> 
 Run the following command to get the (T+I)2V results:
 
 ```python
 python code/video_gen.py
 ```
 - The generated video will be saved in ```code/result/video```.
-</details>
-
-<details>
-  <summary><h3>More Details</h3></summary>  
-MidJourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose MidJourney for T2I and Pika for (T+I)2V. Welcome to contact us for more details (including how to integrate Pika into our framework).
 </details>
 
 
