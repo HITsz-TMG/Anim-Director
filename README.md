@@ -185,7 +185,8 @@ After that, run bash code/StableDiffusion/webui.sh --nowebui
 
 <h4>Prepare Imgur API</h4>
 
-Sign up for an Imgur account. Obtain your Imgur client_id, client_secret, access_token, refresh_token as the instructions [Here](https://github.com/Imgur/imgurpython).
+Sign up for an Imgur account.   
+Obtain your Imgur client_id, client_secret, access_token, refresh_token as the instructions [Here](https://github.com/Imgur/imgurpython).
 </details>
 
 <details>
