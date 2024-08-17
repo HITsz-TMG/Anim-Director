@@ -162,17 +162,19 @@ To use Stable Diffusion 3 for T2I, you need to upgrade your Torch version along 
 To use PIA for (T+I)2V, you need to prepare checkpoints as below.
 <li>Download the Stable Diffusion v1-5</li>
 
-```
+```bash
 conda install git-lfs
 git lfs install
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
 ```
 <li>Download PIA</li>
-```
+
+```bash
 git clone https://huggingface.co/Leoxing/PIA models/PIA/
 ```
 <li>Download Personalized Models</li>
-```
+
+```bash
 bash download_bashscripts/2-RcnzCartoon.sh
 ```
 <h4>Prepare stable-diffusion-webui</h4>
