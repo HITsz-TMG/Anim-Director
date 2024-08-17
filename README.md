@@ -146,7 +146,7 @@ A visual example of Anim-Director.
   <summary><h3>Attention</h3></summary>  
 
 Midjourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose Midjourney for T2I and Pika for (T+I)2V.   
-Welcome to contact us for more details (including how to integrate Pika into our framework).
+Welcome to contact us for more details (including how to integrate Pika into our agent).
 
 </details>
 
@@ -159,10 +159,10 @@ conda create -n AnimDirector python==3.10.11
 conda activate AnimDirector
 pip install -r requirements.txt
 ```
-To use Stable Diffusion 3 for T2I, you need to upgrade your Torch version along with all related packages.
+To use Stable Diffusion 3 for T2I, you need to upgrade your torch version along with all related packages.
 
 <h4>Prepare Checkpoints For PIA</h4>
-To use PIA for (T+I)2V, you need to prepare checkpoints as below.
+To use PIA for (T+I)2V, you need to prepare the following checkpoints.
 <li>Download the Stable Diffusion v1-5</li>
 
 ```bash
@@ -183,7 +183,10 @@ bash download_bashscripts/2-RcnzCartoon.sh
 <h4>Prepare stable-diffusion-webui</h4>
 
 To use MJ for T2I, you need to prepare stable-diffusion-webui as instructions [Here](https://github.com/AUTOMATIC1111/stable-diffusion-webui).   
-After that, run bash code/StableDiffusion/webui.sh --nowebui
+After that, run 
+```bash
+bash code/StableDiffusion/webui.sh --nowebui
+```
 
 <h4>Prepare Imgur API</h4>
 
