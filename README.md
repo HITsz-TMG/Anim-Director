@@ -144,7 +144,8 @@ A visual example of Anim-Director.
 
 <details>
   <summary><h3>Attention</h3></summary>  
-MidJourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose MidJourney for T2I and Pika for (T+I)2V. Welcome to contact us for more details (including how to integrate Pika into our framework).
+Midjourney and Pika are paid, while Stable Diffusion 3 and PIA are free. If you want to achieve the animation generation effect shown in our paper and demo, please choose Midjourney for T2I and Pika for (T+I)2V. 
+Welcome to contact us for more details (including how to integrate Pika into our framework).
 </details>
 
 <details>
@@ -198,7 +199,7 @@ python code/script_gen.py
 </details>
 
 <details>
-  <summary><h3>Inference for T2I with MidJourney </h3></summary>
+  <summary><h3>Inference for T2I with Midjourney </h3></summary>
 
 Since Midjourney does not provide official API services, we used a third-party API platform [GoAPI](https://www.goapi.ai) for mj_api_key. 
 Run the following command to get the (T+I)2V results:
@@ -211,8 +212,7 @@ python code/image_gen_mj.py
 
 <details>
   <summary><h3>
-
-  Inference for T2I with [Stable Diffusion 3](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_3) 
+  Inference for T2I with Stable Diffusion 3
   </h3></summary>
 Run the following command to get the (T+I)2V results:
 
@@ -226,7 +226,7 @@ python code/image_gen_pia.py
 
   <summary><h3>
   
-  Inference for (T+I)2V with with [PIA](https://github.imc.re/open-mmlab/PIA)
+  Inference for (T+I)2V with with PIA
   </h3></summary> 
 Run the following command to get the (T+I)2V results:
 
