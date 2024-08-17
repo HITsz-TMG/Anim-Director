@@ -6,11 +6,11 @@
 <!-- ## <b><font color="red"> TaleCrafter </font>: Interactive Story Visualization with Multiple Characters</b> -->
 
 
-_**[Yunxin Li](https://github.com/YunxinLi), [Haoyuan Shi](https://github.com/HaoyuanShi), Baotian Hu*, Longyue Wang,<br>Jiashun Zhu, Jinyi Xu, Zhen Zhao, and Min Zhang**_
+_**[Yunxin Li](https://yunxinli.github.io), [Haoyuan Shi](https://github.com/HaoyuanShi), Baotian Hu*, Longyue Wang*,<br>Jiashun Zhu, Jinyi Xu, Zhen Zhao, and Min Zhang**_
   
 (* Corresponding Authors)
 
-
+Harbin Institute of Technology, Shenzhen
 
 <p align="center"> <img src="assets/demo1.gif" width="700px"> </p>
  
