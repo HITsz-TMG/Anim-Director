@@ -151,7 +151,6 @@ conda create -n AnimDirector python==3.10.11
 conda activate AnimDirector
 pip install -r requirements.txt
 ```
-
 <h4>Prepare Imgur API</h4>
 Sign up for an Imgur account. Obtain your Imgur client_id, client_secret, access_token, refresh_token as the instructions [Here](https://github.com/Imgur/imgurpython).
 </details>
@@ -174,7 +173,6 @@ Run the following command to get the (T+I)2V results:
 ```python
 python code/image_gen_mj.py
 ```
-
 - The generated images will be saved in ```code/result/image/mj```.
 </details>
 
@@ -185,7 +183,6 @@ Run the following command to get the (T+I)2V results:
 ```python
 python code/image_gen_pia.py
 ```
-
 - The generated images will be saved in ```code/result/image/sd3```.
 </details>
 
@@ -196,7 +193,6 @@ Run the following command to get the (T+I)2V results:
 ```python
 python code/video_gen.py
 ```
-
 - The generated video will be saved in ```code/result/video```.
 </details>
 
