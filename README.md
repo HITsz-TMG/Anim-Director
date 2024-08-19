@@ -12,7 +12,7 @@ _**[Yunxin Li](https://yunxinli.github.io), [Haoyuan Shi](https://github.com/Hao
 
 Harbin Institute of Technology, Shenzhen
 
-🚀 Welcome to the repo of **Anim-Director**, a large multimodal model-powered agent to handle the video-making process.
+🚀 Welcome to the repo of **Anim-Director**.
 
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
 
