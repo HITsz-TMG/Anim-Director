@@ -251,9 +251,11 @@ python code/video_gen.py
 
 ## Citation
 ```bib
-@misc{li2024animdirector,
-      title={TaleCrafter: Interactive Story Visualization with Multiple Characters}, 
+@misc{li2024animdirectorlargemultimodalmodel,
+      title={Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation}, 
       author={Yunxin Li and Haoyuan Shi and Baotian Hu and Longyue Wang and Jiashun Zhu and Jinyi Xu and Zhen Zhao and Min Zhang},
       year={2024},
+      eprint={2408.09787},
+      archivePrefix={arXiv},
 }
 ```
