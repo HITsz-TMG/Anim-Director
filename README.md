@@ -1,7 +1,6 @@
 <div align="center">
 
-<h2>Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation </h2> 
-
+<h2><a href="https://arxiv.org/abs/2408.09787" target="_blank">Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation</a></h2>
  <b> SIGGRAPH Asia 2024 </b>
 <!-- ## <b><font color="red"> TaleCrafter </font>: Interactive Story Visualization with Multiple Characters</b> -->
 
