@@ -250,11 +250,10 @@ python code/video_gen.py
 
 ## Citation
 ```bib
-@misc{li2024animdirectorlargemultimodalmodel,
-      title={Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation}, 
-      author={Yunxin Li and Haoyuan Shi and Baotian Hu and Longyue Wang and Jiashun Zhu and Jinyi Xu and Zhen Zhao and Min Zhang},
-      year={2024},
-      eprint={2408.09787},
-      archivePrefix={arXiv},
+@article{li2024anim,
+  title={Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation},
+  author={Li, Yunxin and Shi, Haoyuan and Hu, Baotian and Wang, Longyue and Zhu, Jiashun and Xu, Jinyi and Zhao, Zhen and Zhang, Min},
+  journal={arXiv preprint arXiv:2408.09787},
+  year={2024}
 }
 ```
