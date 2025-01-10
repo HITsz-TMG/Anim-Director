@@ -250,18 +250,11 @@ python code/video_gen.py
 
 ## Citation
 ```bib
-@inproceedings{li_animdirector,
-author = {Li, Yunxin and Shi, Haoyuan and Hu, Baotian and Wang, Longyue and Zhu, Jiashun and Xu, Jinyi and Zhao, Zhen and Zhang, Min},
-title = {Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation},
-year = {2024},
-isbn = {9798400711312},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3680528.3687688},
-doi = {10.1145/3680528.3687688},
-booktitle = {SIGGRAPH Asia 2024 Conference Papers},
-articleno = {34},
-numpages = {11},
-series = {SA '24}
+@inproceedings{li2024anim,
+  title={Anim-director: A large multimodal model powered agent for controllable animation video generation},
+  author={Li, Yunxin and Shi, Haoyuan and Hu, Baotian and Wang, Longyue and Zhu, Jiashun and Xu, Jinyi and Zhao, Zhen and Zhang, Min},
+  booktitle={SIGGRAPH Asia 2024 Conference Papers},
+  pages={1--11},
+  year={2024}
 }
 ```
