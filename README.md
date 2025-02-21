@@ -17,6 +17,12 @@ Harbin Institute of Technology, Shenzhen
 </div>
 
 
+## 💥 News
+
+- `2025/2/21`: 🎬 We are in the process of completely updating our pipeline. Here is an animation sample featuring ***The Little Prince***. Click the image below to watch the video! 👇
+  [<div align=center><img src="https://github.com/HITsz-TMG/FilmAgent/blob/main/update/youtube.png" width="450"></div>](https://www.youtube.com/watch?v=txj6GmYGBJw)
+
+
 ## 🎏 Abstract
 <b>TL; DR: <font color="red">Anim-Director</font> is an autonomous animation-making agent where LMM interacts seamlessly with generative tools to create detailed animated videos from simple narratives.</b>
 
