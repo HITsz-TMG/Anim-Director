@@ -1,7 +1,6 @@
 <div align="center">
 
-<h2>Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation </h2> 
-
+<h2><a href="https://arxiv.org/abs/2408.09787" target="_blank">Anim-Director: A Large Multimodal Model Powered Agent for Controllable Animation Video Generation</a></h2>
  <b> SIGGRAPH Asia 2024 </b>
 <!-- ## <b><font color="red"> TaleCrafter </font>: Interactive Story Visualization with Multiple Characters</b> -->
 
@@ -11,6 +10,11 @@ _**[Yunxin Li](https://yunxinli.github.io), [Haoyuan Shi](https://github.com/Hao
 (* Corresponding Authors)
 
 Harbin Institute of Technology, Shenzhen
+
+🚀 Welcome to the repo of **Anim-Director**.
+
+If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
+
 
 <p align="center"> <img src="assets/demo1.gif" width="700px"> </p>
  
@@ -26,7 +30,7 @@ Harbin Institute of Technology, Shenzhen
 ## 🎏 Abstract
 <b>TL; DR: <font color="red">Anim-Director</font> is an autonomous animation-making agent where LMM interacts seamlessly with generative tools to create detailed animated videos from simple narratives.</b>
 
-> Traditional animation generation methods depend on generative tools and human-labelled data, requiring a sophisticated multi-stage pipeline that demands substantial human effort and incurs high training costs. These methods typically produce brief, information-poor, and context-incoherent animations due to limited prompting plans. To overcome these limitations and automate the animation process, we introduce large multimodal models (LMMs) as the core processor to build an autonomous animation-making agent, named Anim-Director. This agent harnesses the advanced understanding and reasoning capabilities of LMMs and external tools to create detailed animated videos from concise narratives or simple instructions. Specifically, it operates in three main stages: Firstly, the Anim-Director generates a coherent storyline from user inputs, followed by a detailed director’s script that encompasses character profiles, interior/exterior descriptions, and context-coherent scene descriptions including appearing characters, interiors or exteriors, and scene events. Secondly, we employ LMMs with the image generation tool to produce visual images of settings and scenes. These images are designed to maintain visual consistency across different scenes using a visual-language prompting method that combines scene descriptions and images of the appearing character and setting. Thirdly, scene images serve as the foundation for producing animated videos, with LMMs generating prompts to guide this process. The whole process is notably autonomous without manual intervention, as the LMMs interact seamlessly with generative tools to generate prompts, evaluate visual quality, and select the best one to optimize the final output. To assess the effectiveness of our framework, we collect varied short narratives and incorporate various image/video evaluation metrics including visual consistency and video quality. The experimental results and case studies demonstrate the Anim-Director’s versatility and significant potential to streamline animation creation.
+> Traditional animation generation methods depend on training generative models with human-labelled data, entailing a sophisticated multi-stage pipeline that demands substantial human effort and incurs high training costs. Due to limited prompting plans, these methods typically produce brief, information-poor, and context-incoherent animations. To overcome these limitations and automate the animation process, we pioneer the introduction of large multimodal models (LMMs) as the core processor to build an autonomous animation-making agent, named Anim-Director. This agent mainly harnesses the advanced understanding and reasoning capabilities of LMMs and generative AI tools to create animated videos from concise narratives or simple instructions. Specifically, it operates in three main stages: Firstly, the Anim-Director generates a coherent storyline from user inputs, followed by a detailed director’s script that encompasses settings of character profiles and interior/exterior descriptions, and context-coherent scene descriptions that include appearing characters, interiors or exteriors, and scene events. Secondly, we employ LMMs with the image generation tool to produce visual images of settings and scenes. These images are designed to maintain visual consistency across different scenes using a visual-language prompting method that combines scene descriptions and images of the appearing character and setting. Thirdly, scene images serve as the foundation for producing animated videos, with LMMs generating prompts to guide this process. The whole process is notably autonomous without manual intervention, as the LMMs interact seamlessly with generative tools to generate prompts, evaluate visual quality, and select the best one to optimize the final output. To assess the effectiveness of our framework, we collect varied short narratives and incorporate various Image/video evaluation metrics including visual consistency and video quality. The experimental results and case studies demonstrate the Anim-Director’s versatility and significant potential to streamline animation creation.
 
   
 ## ⚔️ Overview
@@ -252,9 +256,11 @@ python code/video_gen.py
 
 ## Citation
 ```bib
-@misc{li2024animdirector,
-      title={TaleCrafter: Interactive Story Visualization with Multiple Characters}, 
-      author={Yunxin Li and Haoyuan Shi and Baotian Hu and Longyue Wang and Jiashun Zhu and Jinyi Xu and Zhen Zhao and Min Zhang},
-      year={2024},
+@inproceedings{li2024anim,
+  title={Anim-director: A large multimodal model powered agent for controllable animation video generation},
+  author={Li, Yunxin and Shi, Haoyuan and Hu, Baotian and Wang, Longyue and Zhu, Jiashun and Xu, Jinyi and Zhao, Zhen and Zhang, Min},
+  booktitle={SIGGRAPH Asia 2024 Conference Papers},
+  pages={1--11},
+  year={2024}
 }
 ```
