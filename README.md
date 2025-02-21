@@ -24,7 +24,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 ## 💥 News
 
 - `2025/2/21`: 🎬 We are in the process of completely updating our pipeline. Here is an animation sample featuring ***The Little Prince***. Click the image below to watch the video! 👇
-  [<div align=center><img src="https://github.com/HITsz-TMG/FilmAgent/blob/main/update/youtube.png" width="450"></div>](https://www.youtube.com/watch?v=txj6GmYGBJw)
+  [<div align=center><img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/update/youtube.png" width="450"></div>](https://www.youtube.com/watch?v=txj6GmYGBJw)
 
 
 ## 🎏 Abstract
