@@ -24,9 +24,11 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 ## 💥 News
 
 - `2025/4/24`: 🎬 Our upgraded pipeline is nearly ready! Witness the magic as it transforms a few simple words into a complete animated short film ***Girl & Cat*** with zero human intervention! Click the image below to watch the film! 👇
+
    [<div align=center><img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/update/Girl%26Cat.png" width="450"></div>](https://www.youtube.com/watch?v=O8XLR1GdFUo)
   
 - `2025/2/21`: 🎬 We are in the process of completely updating our pipeline based on Vidu 2.0. Here is an animation sample featuring ***The Little Prince***. Click the image below to watch the video! 👇
+
    [<div align=center><img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/update/TheLittlePrince.png" width="450"></div>](https://www.youtube.com/watch?v=txj6GmYGBJw)
 
 ## 🎏 Abstract
