@@ -1,0 +1,13 @@
+SDXL_Imgs/
+prompts/
+prompts_original/
+results_modelscope/
+results_videocrafter-v1.0/
+results_zeroscope/
+results/
+start_multiple.sh
+noise_log.txt
+noise_to_prompts.py
+checkpoints/
+videos/
+eval_from_metrics_local.py

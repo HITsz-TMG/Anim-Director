@@ -1,0 +1,14 @@
+torch~=1.13
+torchvision
+opencv-python
+decord
+matplotlib
+scipy
+numpy
+tqdm
+timm
+einops
+wandb
+scikit-video
+thop==0.0.31-2005241907
+onnx

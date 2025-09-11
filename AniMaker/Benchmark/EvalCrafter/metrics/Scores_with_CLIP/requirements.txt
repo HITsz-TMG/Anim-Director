@@ -1,0 +1,16 @@
+torch~=1.13
+torchvision
+opencv-python
+scipy
+numpy
+tqdm
+timm
+einops
+wandb
+scikit-video
+pillow
+logger
+diffusers
+transformers
+accelerate
+requests

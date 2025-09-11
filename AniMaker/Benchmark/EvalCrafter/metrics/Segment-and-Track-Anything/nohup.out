@@ -1,0 +1,875 @@
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/wandb/run-20230913_042709-yg9ux3g5
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run modelscope_object_det_20230913-042707
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/yg9ux3g5
+2023-09-13 04:27:14 Total video num 100
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:881: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+2023-09-13 04:27:46 Det num: 1, Positive num: 1, Acc: 1.0, Step obj-gen score: 1.0, Whole obj-det score: 1.0, Video name: 0091
+2023-09-13 04:28:09 Det num: 2, Positive num: 2, Acc: 1.0, Step obj-gen score: 1.0, Whole obj-det score: 1.0, Video name: 0037
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/wandb/run-20230913_042823-uwweqq98
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run zeroscope_object_det_20230913-042821
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/uwweqq98
+2023-09-13 04:28:27 Total video num 100
+2023-09-13 04:28:33 Det num: 3, Positive num: 2, Acc: 0.6666666666666666, Step obj-gen score: 0.5, Whole obj-det score: 0.8333333333333334, Video name: 0004
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:881: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+2023-09-13 04:28:57 Det num: 4, Positive num: 2, Acc: 0.5, Step obj-gen score: 0.5, Whole obj-det score: 0.75, Video name: 0080
+2023-09-13 04:29:00 Det num: 1, Positive num: 0, Acc: 0.0, Step obj-gen score: 0.5, Whole obj-det score: 0.5, Video name: 0091
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.10 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/wandb/run-20230913_042919-zbarn2vn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run zeroscope_object_det_20230913-042918
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/zbarn2vn
+2023-09-13 04:29:24 Total video num 100
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+2023-09-13 04:29:37 Det num: 5, Positive num: 2, Acc: 0.4, Step obj-gen score: 0.5, Whole obj-det score: 0.7, Video name: 0100
+2023-09-13 04:29:38 Det num: 2, Positive num: 0, Acc: 0.0, Step obj-gen score: 0.5, Whole obj-det score: 0.5, Video name: 0037
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:881: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+2023-09-13 04:29:59 Det num: 1, Positive num: 0, Acc: 0.0, Step obj-gen score: 0.5, Whole obj-det score: 0.5, Video name: 0091
+2023-09-13 04:30:18 Det num: 6, Positive num: 3, Acc: 0.5, Step obj-gen score: 1.0, Whole obj-det score: 0.75, Video name: 0071
+2023-09-13 04:30:20 Det num: 3, Positive num: 1, Acc: 0.3333333333333333, Step obj-gen score: 1.0, Whole obj-det score: 0.6666666666666666, Video name: 0004
+2023-09-13 04:30:26 Det num: 2, Positive num: 0, Acc: 0.0, Step obj-gen score: 0.5, Whole obj-det score: 0.5, Video name: 0037
+2023-09-13 05:58:14 Det num: 7, Positive num: 4, Acc: 0.5714285714285714, Step obj-gen score: 1.0, Whole obj-det score: 0.7857142857142857, Video name: 0069
+2023-09-13 05:58:14 Det num: 4, Positive num: 1, Acc: 0.25, Step obj-gen score: 0.5, Whole obj-det score: 0.625, Video name: 0080
+2023-09-13 05:58:15 Det num: 3, Positive num: 1, Acc: 0.3333333333333333, Step obj-gen score: 1.0, Whole obj-det score: 0.6666666666666666, Video name: 0004
+2023-09-13 05:59:12 Det num: 8, Positive num: 4, Acc: 0.5, Step obj-gen score: 0.5, Whole obj-det score: 0.75, Video name: 0099
+2023-09-13 05:59:13 Det num: 4, Positive num: 1, Acc: 0.25, Step obj-gen score: 0.5, Whole obj-det score: 0.625, Video name: 0080
+2023-09-13 05:59:14 Det num: 5, Positive num: 2, Acc: 0.4, Step obj-gen score: 1.0, Whole obj-det score: 0.7, Video name: 0100
+2023-09-13 06:00:03 Det num: 9, Positive num: 4, Acc: 0.4444444444444444, Step obj-gen score: 0.5, Whole obj-det score: 0.7222222222222222, Video name: 0026
+2023-09-13 06:00:04 Det num: 6, Positive num: 2, Acc: 0.3333333333333333, Step obj-gen score: 0.5, Whole obj-det score: 0.6666666666666666, Video name: 0071
+2023-09-13 06:00:04 Det num: 5, Positive num: 2, Acc: 0.4, Step obj-gen score: 1.0, Whole obj-det score: 0.7, Video name: 0100
+2023-09-13 06:00:52 Det num: 10, Positive num: 4, Acc: 0.4, Step obj-gen score: 0.5, Whole obj-det score: 0.7, Video name: 0058
+2023-09-13 06:00:53 Det num: 6, Positive num: 2, Acc: 0.3333333333333333, Step obj-gen score: 0.5, Whole obj-det score: 0.6666666666666666, Video name: 0071
+2023-09-13 06:00:54 Det num: 7, Positive num: 3, Acc: 0.42857142857142855, Step obj-gen score: 1.0, Whole obj-det score: 0.7142857142857143, Video name: 0069
+2023-09-13 06:01:48 Det num: 11, Positive num: 5, Acc: 0.45454545454545453, Step obj-gen score: 1.0, Whole obj-det score: 0.7272727272727273, Video name: 0021
+2023-09-13 06:01:49 Det num: 8, Positive num: 4, Acc: 0.5, Step obj-gen score: 1.0, Whole obj-det score: 0.75, Video name: 0099
+2023-09-13 06:01:49 Det num: 7, Positive num: 3, Acc: 0.42857142857142855, Step obj-gen score: 1.0, Whole obj-det score: 0.7142857142857143, Video name: 0069
+2023-09-13 06:02:46 Det num: 12, Positive num: 6, Acc: 0.5, Step obj-gen score: 1.5, Whole obj-det score: 0.7916666666666666, Video name: 0039
+2023-09-13 06:02:46 Det num: 8, Positive num: 4, Acc: 0.5, Step obj-gen score: 1.0, Whole obj-det score: 0.75, Video name: 0099
+2023-09-13 06:02:46 Det num: 9, Positive num: 4, Acc: 0.4444444444444444, Step obj-gen score: 0.5, Whole obj-det score: 0.7222222222222222, Video name: 0026
+2023-09-13 06:03:35 Det num: 13, Positive num: 7, Acc: 0.5384615384615384, Step obj-gen score: 1.0, Whole obj-det score: 0.8076923076923077, Video name: 0070
+2023-09-13 06:03:36 Det num: 9, Positive num: 4, Acc: 0.4444444444444444, Step obj-gen score: 0.5, Whole obj-det score: 0.7222222222222222, Video name: 0026
+2023-09-13 06:03:37 Det num: 10, Positive num: 4, Acc: 0.4, Step obj-gen score: 0.5, Whole obj-det score: 0.7, Video name: 0058
+2023-09-13 06:04:24 Det num: 14, Positive num: 7, Acc: 0.5, Step obj-gen score: 0.5, Whole obj-det score: 0.7857142857142857, Video name: 0013
+2023-09-13 06:04:24 Object detection metric: 0.79 
+2023-09-13 06:04:24 Total processing time: 5829.80 seconds
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/mask_0091.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/gif_0091.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/mask_0037.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/gif_0037.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/orange/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/orange/mask_0004.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/orange/gif_0004.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/mask_0080.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/gif_0080.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/mask_0100.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/gif_0100.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/mask_0071.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/gif_0071.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bus/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bus/mask_0069.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bus/gif_0069.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/mask_0099.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/person/gif_0099.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/mask_0026.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/gif_0026.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/mask_0058.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/bird/gif_0058.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/mask_0021.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/cat/gif_0021.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 2processed frame 1, obj_num 2processed frame 2, obj_num 2processed frame 3, obj_num 2processed frame 4, obj_num 2processed frame 5, obj_num 2processed frame 6, obj_num 2processed frame 7, obj_num 2processed frame 8, obj_num 2processed frame 9, obj_num 2processed frame 10, obj_num 2processed frame 11, obj_num 2processed frame 12, obj_num 2processed frame 13, obj_num 2processed frame 14, obj_num 2processed frame 15, obj_num 2processed frame 16, obj_num 2processed frame 17, obj_num 2processed frame 18, obj_num 2processed frame 19, obj_num 2processed frame 20, obj_num 2processed frame 21, obj_num 2processed frame 22, obj_num 2processed frame 23, obj_num 2processed frame 24, obj_num 2processed frame 25, obj_num 2processed frame 26, obj_num 2processed frame 27, obj_num 2processed frame 28, obj_num 2processed frame 29, obj_num 2processed frame 30, obj_num 2processed frame 31, obj_num 2frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/mask_0039.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/gif_0039.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/pizza/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/pizza/mask_0070.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/pizza/gif_0070.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/mask_0013.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/modelscope/object_det20230913-042707/dog/gif_0013.gif saved
+
+finished
+wandb: Waiting for W&B process to finish... (success).
+2023-09-13 06:04:25 Det num: 10, Positive num: 4, Acc: 0.4, Step obj-gen score: 0.5, Whole obj-det score: 0.7, Video name: 0058
+2023-09-13 06:04:25 Det num: 11, Positive num: 5, Acc: 0.45454545454545453, Step obj-gen score: 1.0, Whole obj-det score: 0.7272727272727273, Video name: 0021
+wandb: 
+wandb: Run history:
+wandb: Average Obj-det score ██▄▂▁▂▃▂▂▁▂▃▄▃
+wandb: Current Obj-det score ▅▅▁▁▁▅▅▁▁▁▅█▅▁
+wandb:         Positive rate ██▄▂▁▂▃▂▂▁▂▂▃▂
+wandb:       Total video num ▁
+wandb: 
+wandb: Run summary:
+wandb: Average Obj-det score 0.78571
+wandb: Current Obj-det score 0.5
+wandb:         Positive rate 0.5
+wandb:       Total video num 100
+wandb: 
+wandb: 🚀 View run modelscope_object_det_20230913-042707 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/yg9ux3g5
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk2OTk5Njg2/version_details/v1
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20230913_042709-yg9ux3g5/logs
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/STA/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/root/miniconda3/envs/STA/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 274, in check_stop_status
+    self._loop_check_status(
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 212, in _loop_check_status
+    local_handle = request()
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 856, in deliver_stop_status
+    return self._deliver_stop_status(status)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 594, in _deliver_stop_status
+    return self._deliver_record(record)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 569, in _deliver_record
+    handle = mailbox._deliver_record(record, interface=self)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 455, in _deliver_record
+    interface._publish(record)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2023-09-13 06:05:12 Det num: 11, Positive num: 5, Acc: 0.45454545454545453, Step obj-gen score: 1.0, Whole obj-det score: 0.7272727272727273, Video name: 0021
+2023-09-13 06:05:13 Det num: 12, Positive num: 6, Acc: 0.5, Step obj-gen score: 2.0, Whole obj-det score: 0.8333333333333334, Video name: 0039
+2023-09-13 06:05:56 Det num: 12, Positive num: 6, Acc: 0.5, Step obj-gen score: 2.0, Whole obj-det score: 0.8333333333333334, Video name: 0039
+2023-09-13 06:05:56 Det num: 13, Positive num: 7, Acc: 0.5384615384615384, Step obj-gen score: 2.0, Whole obj-det score: 0.9230769230769231, Video name: 0070
+2023-09-13 06:06:41 Det num: 14, Positive num: 7, Acc: 0.5, Step obj-gen score: 0.5, Whole obj-det score: 0.8928571428571429, Video name: 0013
+2023-09-13 06:06:42 Object detection metric: 0.89 
+2023-09-13 06:06:42 Total processing time: 5894.24 seconds
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/mask_0091.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/gif_0091.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/mask_0037.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/gif_0037.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/orange/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/orange/mask_0004.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/orange/gif_0004.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/mask_0080.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/gif_0080.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/mask_0100.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/gif_0100.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/mask_0071.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/gif_0071.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bus/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bus/mask_0069.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bus/gif_0069.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/mask_0099.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/person/gif_0099.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/mask_0026.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/gif_0026.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/mask_0058.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/bird/gif_0058.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/mask_0021.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/cat/gif_0021.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 3processed frame 1, obj_num 3processed frame 2, obj_num 3processed frame 3, obj_num 3processed frame 4, obj_num 3processed frame 5, obj_num 3processed frame 6, obj_num 3processed frame 7, obj_num 3processed frame 8, obj_num 3processed frame 9, obj_num 3processed frame 10, obj_num 3processed frame 11, obj_num 3processed frame 12, obj_num 3processed frame 13, obj_num 3processed frame 14, obj_num 3processed frame 15, obj_num 3processed frame 16, obj_num 3processed frame 17, obj_num 3processed frame 18, obj_num 3processed frame 19, obj_num 3processed frame 20, obj_num 3processed frame 21, obj_num 3processed frame 22, obj_num 3processed frame 23, obj_num 3processed frame 24, obj_num 3processed frame 25, obj_num 3processed frame 26, obj_num 3processed frame 27, obj_num 3processed frame 28, obj_num 3processed frame 29, obj_num 3processed frame 30, obj_num 3processed frame 31, obj_num 3processed frame 32, obj_num 3processed frame 33, obj_num 3processed frame 34, obj_num 3processed frame 35, obj_num 3frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/mask_0039.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/gif_0039.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/pizza/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 3processed frame 1, obj_num 3processed frame 2, obj_num 3processed frame 3, obj_num 3processed frame 4, obj_num 3processed frame 5, obj_num 3processed frame 6, obj_num 3processed frame 7, obj_num 3processed frame 8, obj_num 3processed frame 9, obj_num 3processed frame 10, obj_num 3processed frame 11, obj_num 3processed frame 12, obj_num 3processed frame 13, obj_num 3processed frame 14, obj_num 3processed frame 15, obj_num 3processed frame 16, obj_num 3processed frame 17, obj_num 3processed frame 18, obj_num 3processed frame 19, obj_num 3processed frame 20, obj_num 3processed frame 21, obj_num 3processed frame 22, obj_num 3processed frame 23, obj_num 3processed frame 24, obj_num 3processed frame 25, obj_num 3processed frame 26, obj_num 3processed frame 27, obj_num 3processed frame 28, obj_num 3processed frame 29, obj_num 3processed frame 30, obj_num 3processed frame 31, obj_num 3processed frame 32, obj_num 3processed frame 33, obj_num 3processed frame 34, obj_num 3processed frame 35, obj_num 3frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/pizza/mask_0070.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/pizza/gif_0070.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/mask_0013.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042821/dog/gif_0013.gif saved
+
+finished
+wandb: Waiting for W&B process to finish... (success).
+2023-09-13 06:06:42 Det num: 13, Positive num: 7, Acc: 0.5384615384615384, Step obj-gen score: 2.0, Whole obj-det score: 0.9230769230769231, Video name: 0070
+wandb: 
+wandb: Run history:
+wandb: Average Obj-det score ▁▁▄▃▄▄▅▅▅▄▅▇█▇
+wandb: Current Obj-det score ▁▁▃▁▃▁▃▃▁▁▃██▁
+wandb:         Positive rate ▁▁▅▄▆▅▇▇▇▆▇▇█▇
+wandb:       Total video num ▁
+wandb: 
+wandb: Run summary:
+wandb: Average Obj-det score 0.89286
+wandb: Current Obj-det score 0.5
+wandb:         Positive rate 0.5
+wandb:       Total video num 100
+wandb: 
+wandb: 🚀 View run zeroscope_object_det_20230913-042821 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/uwweqq98
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk2OTk5Njg2/version_details/v1
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20230913_042823-uwweqq98/logs
+2023-09-13 06:07:08 Det num: 14, Positive num: 7, Acc: 0.5, Step obj-gen score: 0.5, Whole obj-det score: 0.8928571428571429, Video name: 0013
+2023-09-13 06:07:08 Object detection metric: 0.89 
+2023-09-13 06:07:08 Total processing time: 5864.30 seconds
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/mask_0091.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/gif_0091.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/mask_0037.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/gif_0037.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/orange/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/orange/mask_0004.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/orange/gif_0004.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/mask_0080.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/gif_0080.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/mask_0100.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/gif_0100.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/mask_0071.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/gif_0071.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bus/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bus/mask_0069.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bus/gif_0069.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/mask_0099.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/person/gif_0099.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/mask_0026.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/gif_0026.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/mask_0058.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/bird/gif_0058.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 1processed frame 1, obj_num 1processed frame 2, obj_num 1processed frame 3, obj_num 1processed frame 4, obj_num 1processed frame 5, obj_num 1processed frame 6, obj_num 1processed frame 7, obj_num 1processed frame 8, obj_num 1processed frame 9, obj_num 1processed frame 10, obj_num 1processed frame 11, obj_num 1processed frame 12, obj_num 1processed frame 13, obj_num 1processed frame 14, obj_num 1processed frame 15, obj_num 1processed frame 16, obj_num 1processed frame 17, obj_num 1processed frame 18, obj_num 1processed frame 19, obj_num 1processed frame 20, obj_num 1processed frame 21, obj_num 1processed frame 22, obj_num 1processed frame 23, obj_num 1processed frame 24, obj_num 1processed frame 25, obj_num 1processed frame 26, obj_num 1processed frame 27, obj_num 1processed frame 28, obj_num 1processed frame 29, obj_num 1processed frame 30, obj_num 1processed frame 31, obj_num 1processed frame 32, obj_num 1processed frame 33, obj_num 1processed frame 34, obj_num 1processed frame 35, obj_num 1frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/mask_0021.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/cat/gif_0021.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 3processed frame 1, obj_num 3processed frame 2, obj_num 3processed frame 3, obj_num 3processed frame 4, obj_num 3processed frame 5, obj_num 3processed frame 6, obj_num 3processed frame 7, obj_num 3processed frame 8, obj_num 3processed frame 9, obj_num 3processed frame 10, obj_num 3processed frame 11, obj_num 3processed frame 12, obj_num 3processed frame 13, obj_num 3processed frame 14, obj_num 3processed frame 15, obj_num 3processed frame 16, obj_num 3processed frame 17, obj_num 3processed frame 18, obj_num 3processed frame 19, obj_num 3processed frame 20, obj_num 3processed frame 21, obj_num 3processed frame 22, obj_num 3processed frame 23, obj_num 3processed frame 24, obj_num 3processed frame 25, obj_num 3processed frame 26, obj_num 3processed frame 27, obj_num 3processed frame 28, obj_num 3processed frame 29, obj_num 3processed frame 30, obj_num 3processed frame 31, obj_num 3processed frame 32, obj_num 3processed frame 33, obj_num 3processed frame 34, obj_num 3processed frame 35, obj_num 3frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/mask_0039.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/gif_0039.gif saved
+
+finished
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/pizza/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 3processed frame 1, obj_num 3processed frame 2, obj_num 3processed frame 3, obj_num 3processed frame 4, obj_num 3processed frame 5, obj_num 3processed frame 6, obj_num 3processed frame 7, obj_num 3processed frame 8, obj_num 3processed frame 9, obj_num 3processed frame 10, obj_num 3processed frame 11, obj_num 3processed frame 12, obj_num 3processed frame 13, obj_num 3processed frame 14, obj_num 3processed frame 15, obj_num 3processed frame 16, obj_num 3processed frame 17, obj_num 3processed frame 18, obj_num 3processed frame 19, obj_num 3processed frame 20, obj_num 3processed frame 21, obj_num 3processed frame 22, obj_num 3processed frame 23, obj_num 3processed frame 24, obj_num 3processed frame 25, obj_num 3processed frame 26, obj_num 3processed frame 27, obj_num 3processed frame 28, obj_num 3processed frame 29, obj_num 3processed frame 30, obj_num 3processed frame 31, obj_num 3processed frame 32, obj_num 3processed frame 33, obj_num 3processed frame 34, obj_num 3processed frame 35, obj_num 3frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/pizza/mask_0070.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/pizza/gif_0070.gif saved
+
+finished
+Directory already exists: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+processed frame 0, obj_num 0processed frame 1, obj_num 0processed frame 2, obj_num 0processed frame 3, obj_num 0processed frame 4, obj_num 0processed frame 5, obj_num 0processed frame 6, obj_num 0processed frame 7, obj_num 0processed frame 8, obj_num 0processed frame 9, obj_num 0processed frame 10, obj_num 0processed frame 11, obj_num 0processed frame 12, obj_num 0processed frame 13, obj_num 0processed frame 14, obj_num 0processed frame 15, obj_num 0processed frame 16, obj_num 0processed frame 17, obj_num 0processed frame 18, obj_num 0processed frame 19, obj_num 0processed frame 20, obj_num 0processed frame 21, obj_num 0processed frame 22, obj_num 0processed frame 23, obj_num 0processed frame 24, obj_num 0processed frame 25, obj_num 0processed frame 26, obj_num 0processed frame 27, obj_num 0processed frame 28, obj_num 0processed frame 29, obj_num 0processed frame 30, obj_num 0processed frame 31, obj_num 0processed frame 32, obj_num 0processed frame 33, obj_num 0processed frame 34, obj_num 0processed frame 35, obj_num 0frame 0 writedframe 1 writedframe 2 writedframe 3 writedframe 4 writedframe 5 writedframe 6 writedframe 7 writedframe 8 writedframe 9 writedframe 10 writedframe 11 writedframe 12 writedframe 13 writedframe 14 writedframe 15 writedframe 16 writedframe 17 writedframe 18 writedframe 19 writedframe 20 writedframe 21 writedframe 22 writedframe 23 writedframe 24 writedframe 25 writedframe 26 writedframe 27 writedframe 28 writedframe 29 writedframe 30 writedframe 31 writedframe 32 writedframe 33 writedframe 34 writedframe 35 writed
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/mask_0013.mp4 saved
+/apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/zeroscope/object_det20230913-042918/dog/gif_0013.gif saved
+
+finished
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.409 MB of 0.409 MB uploaded (0.000 MB deduped)wandb: \ 0.409 MB of 0.409 MB uploaded (0.000 MB deduped)wandb: | 0.409 MB of 0.409 MB uploaded (0.000 MB deduped)wandb: / 0.409 MB of 0.409 MB uploaded (0.000 MB deduped)wandb: - 0.409 MB of 0.409 MB uploaded (0.000 MB deduped)wandb: 
+wandb: Run history:
+wandb: Average Obj-det score ▁▁▄▃▄▄▅▅▅▄▅▇█▇
+wandb: Current Obj-det score ▁▁▃▁▃▁▃▃▁▁▃██▁
+wandb:         Positive rate ▁▁▅▄▆▅▇▇▇▆▇▇█▇
+wandb:       Total video num ▁
+wandb: 
+wandb: Run summary:
+wandb: Average Obj-det score 0.89286
+wandb: Current Obj-det score 0.5
+wandb:         Positive rate 0.5
+wandb:       Total video num 100
+wandb: 
+wandb: 🚀 View run zeroscope_object_det_20230913-042918 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/zbarn2vn
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjk2OTk5Njg2/version_details/v1
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 1 other file(s)
+wandb: Find logs at: ./wandb/run-20230913_042919-zbarn2vn/logs
+[2023-11-07 21:05:47,319] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-07 21:05:47,319] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-07 21:05:47,319] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2023-11-07 21:05:47,319] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2023-11-07 21:05:53.035094: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2023-11-07 21:05:53.035089: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2023-11-07 21:05:53.035111: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2023-11-07 21:05:53.035128: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: Currently logged in as: bruceliu. Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-a33phgfn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pika_object_det_20231107-210601
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/a33phgfn
+2023-11-07 21:06:16 Total video num 698
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-voiem1ej
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-n0g59qh0
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.15.12 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.8
+wandb: Run data is saved locally in /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-oktslgnn
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run floor33_object_det_20231107-210601
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/voiem1ej
+wandb: Syncing run hotshot_object_det_20231107-210601
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/n0g59qh0
+wandb: Syncing run gen2_object_det_20231107-210601
+wandb: ⭐️ View project at https://wandb.ai/bruceliu/Vid%20Model%20Eval
+wandb: 🚀 View run at https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/oktslgnn
+2023-11-07 21:06:16 Total video num 700
+2023-11-07 21:06:16 Total video num 682
+2023-11-07 21:06:16 Total video num 700
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/functional.py:504: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3483.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:909: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:909: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:909: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/transformers/modeling_utils.py:909: FutureWarning: The `device` argument is deprecated and will be removed in v5 of Transformers.
+  warnings.warn(
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/checkpoint.py:31: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/floor33/object_det20231107-210601/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/pika/object_det20231107-210601/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+Directory created: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/gen2/object_det20231107-210601/cat/masks
+final text_encoder_type: bert-base-uncased
+Model loaded from ./ckpt/groundingdino_swint_ogc.pth 
+ => _IncompatibleKeys(missing_keys=[], unexpected_keys=['label_enc.weight', 'bert.embeddings.position_ids'])
+SegTracker has been initialized
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 371, in <module>
+    _, pred_list, det_count_frames = video_detection(io_args, segtracker_args, sam_args, aot_args, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 371, in <module>
+    _, pred_list, det_count_frames = video_detection(io_args, segtracker_args, sam_args, aot_args, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 371, in <module>
+    _, pred_list, det_count_frames = video_detection(io_args, segtracker_args, sam_args, aot_args, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 103, in video_detection
+    pred_mask, _ = segtracker.detect_and_seg(frame, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 103, in video_detection
+    pred_mask, _ = segtracker.detect_and_seg(frame, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/object_attributes_eval.py", line 103, in video_detection
+    pred_mask, _ = segtracker.detect_and_seg(frame, grounding_caption, box_threshold, text_threshold, box_size_threshold, reset_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/SegTracker.py", line 238, in detect_and_seg
+    interactive_mask = self.sam.segment_with_box(origin_frame, bbox, reset_image)[0]
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/SegTracker.py", line 238, in detect_and_seg
+    interactive_mask = self.sam.segment_with_box(origin_frame, bbox, reset_image)[0]
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/SegTracker.py", line 238, in detect_and_seg
+    interactive_mask = self.sam.segment_with_box(origin_frame, bbox, reset_image)[0]
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/tool/segmentor.py", line 73, in segment_with_box
+    self.interactive_predictor.set_image(origin_frame)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/tool/segmentor.py", line 73, in segment_with_box
+    self.interactive_predictor.set_image(origin_frame)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/tool/segmentor.py", line 73, in segment_with_box
+    self.interactive_predictor.set_image(origin_frame)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 60, in set_image
+    self.set_torch_image(input_image_torch, image.shape[:2])
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 60, in set_image
+    self.set_torch_image(input_image_torch, image.shape[:2])
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 60, in set_image
+    self.set_torch_image(input_image_torch, image.shape[:2])
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 89, in set_torch_image
+    self.features = self.model.image_encoder(input_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 89, in set_torch_image
+    self.features = self.model.image_encoder(input_image)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/predictor.py", line 89, in set_torch_image
+    self.features = self.model.image_encoder(input_image)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 112, in forward
+    x = blk(x)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 112, in forward
+    x = blk(x)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 112, in forward
+    x = blk(x)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 174, in forward
+    x = self.attn(x)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 174, in forward
+    x = self.attn(x)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 174, in forward
+    x = self.attn(x)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 234, in forward
+    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h, self.rel_pos_w, (H, W), (H, W))
+  File "/root/miniconda3/envs/STA/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 234, in forward
+    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h, self.rel_pos_w, (H, W), (H, W))
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 358, in add_decomposed_rel_pos
+    attn.view(B, q_h, q_w, k_h, k_w) + rel_h[:, :, :, :, None] + rel_w[:, :, :, None, :]
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 234, in forward
+    attn = add_decomposed_rel_pos(attn, q, self.rel_pos_h, self.rel_pos_w, (H, W), (H, W))
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 358, in add_decomposed_rel_pos
+    attn.view(B, q_h, q_w, k_h, k_w) + rel_h[:, :, :, :, None] + rel_w[:, :, :, None, :]
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 384.00 MiB (GPU 0; 15.75 GiB total capacity; 2.25 GiB already allocated; 140.62 MiB free; 2.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+  File "/apdcephfs/share_1290939/raphaelliu/Segment-and-Track-Anything/sam/segment_anything/modeling/image_encoder.py", line 358, in add_decomposed_rel_pos
+    attn.view(B, q_h, q_w, k_h, k_w) + rel_h[:, :, :, :, None] + rel_w[:, :, :, None, :]
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 384.00 MiB (GPU 0; 15.75 GiB total capacity; 1.84 GiB already allocated; 140.62 MiB free; 1.87 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 384.00 MiB (GPU 0; 15.75 GiB total capacity; 2.25 GiB already allocated; 140.62 MiB free; 2.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+2023-11-07 21:08:24 Vid: 0299,  Current object_det: 1.0, Current avg. object_det: 1.0, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+wandb: ERROR Error while calling W&B API: An internal error occurred. Please contact support. (<Response [500]>)
+2023-11-07 21:08:32 Vid: 0157,  Current object_det: 0.0, Current avg. object_det: 0.5, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+wandb: 🚀 View run floor33_object_det_20231107-210601 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/voiem1ej
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMTcwMjE5Ng==/version_details/v15
+wandb: Synced 7 W&B file(s), 0 media file(s), 3 artifact file(s) and 1 other file(s)
+wandb: Find logs at: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-voiem1ej/logs
+wandb: 🚀 View run pika_object_det_20231107-210601 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/a33phgfn
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMTcwMjE5Ng==/version_details/v15
+wandb: Synced 7 W&B file(s), 0 media file(s), 3 artifact file(s) and 1 other file(s)
+wandb: Find logs at: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-a33phgfn/logs
+wandb: 🚀 View run gen2_object_det_20231107-210601 at: https://wandb.ai/bruceliu/Vid%20Model%20Eval/runs/oktslgnn
+wandb: ️⚡ View job at https://wandb.ai/bruceliu/Vid%20Model%20Eval/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMTcwMjE5Ng==/version_details/v15
+wandb: Synced 7 W&B file(s), 0 media file(s), 3 artifact file(s) and 1 other file(s)
+wandb: Find logs at: /apdcephfs/share_1290939/raphaelliu/Vid_Eval/results/wandb/run-20231107_210603-oktslgnn/logs
+2023-11-07 21:08:39 Vid: 0640,  Current object_det: 1.0, Current avg. object_det: 0.6666666666666666, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:08:45 Vid: 0410,  Current object_det: 1.0, Current avg. object_det: 0.75, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:08:52 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.6, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:08:58 Vid: 0650,  Current object_det: 1.0, Current avg. object_det: 0.6666666666666666, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:05 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.5714285714285714, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:12 Vid: 0081,  Current object_det: 1.0, Current avg. object_det: 0.625, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:18 Vid: 0408,  Current object_det: 1.0, Current avg. object_det: 0.6666666666666666, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:25 Vid: 0235,  Current object_det: 0.0, Current avg. object_det: 0.6, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:31 Vid: 0244,  Current object_det: 0.0, Current avg. object_det: 0.5454545454545454, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:37 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.5, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:45 Vid: 0604,  Current object_det: 1.0, Current avg. object_det: 0.5384615384615384, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:51 Vid: 0137,  Current object_det: 1.0, Current avg. object_det: 0.5714285714285714, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:09:58 Vid: 0301,  Current object_det: 0.0, Current avg. object_det: 0.5333333333333333, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:04 Vid: 0236,  Current object_det: 1.0, Current avg. object_det: 0.5625, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:11 Vid: 0409,  Current object_det: 1.0, Current avg. object_det: 0.5882352941176471, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:17 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.5555555555555556, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:23 Vid: 0228,  Current object_det: 0.0, Current avg. object_det: 0.5263157894736842, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:30 Vid: 0077,  Current object_det: 0.0, Current avg. object_det: 0.5, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:37 Vid: 0396,  Current object_det: 1.0, Current avg. object_det: 0.5238095238095238, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:43 Vid: 0104,  Current object_det: 0.0, Current avg. object_det: 0.5, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:49 Vid: 0227,  Current object_det: 0.0, Current avg. object_det: 0.4782608695652174, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:10:55 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4583333333333333, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:02 Vid: 0156,  Current object_det: 0.0, Current avg. object_det: 0.44, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:08 Vid: 0635,  Current object_det: 1.0, Current avg. object_det: 0.46153846153846156, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:15 Vid: 0201,  Current object_det: 1.0, Current avg. object_det: 0.48148148148148145, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:22 Vid: 0297,  Current object_det: 1.0, Current avg. object_det: 0.5, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:28 Vid: 0383,  Current object_det: 0.0, Current avg. object_det: 0.4827586206896552, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:35 Vid: 0203,  Current object_det: 0.0, Current avg. object_det: 0.4666666666666667, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0 
+2023-11-07 21:11:43 Vid: 0213,  Current object_det: 0.875, Current avg. object_det: 0.4798387096774194, Current object_det_temp: 0.2857142857142857, Current avg. object_det_temp: 0.009216589861751152 
+2023-11-07 21:11:49 Vid: 0280,  Current object_det: 0.0, Current avg. object_det: 0.46484375, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.008928571428571428 
+2023-11-07 21:11:56 Vid: 0643,  Current object_det: 1.0, Current avg. object_det: 0.4810606060606061, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.008658008658008658 
+2023-11-07 21:12:02 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.46691176470588236, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.008403361344537815 
+2023-11-07 21:12:09 Vid: 0646,  Current object_det: 1.0, Current avg. object_det: 0.48214285714285715, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.008163265306122448 
+2023-11-07 21:12:16 Vid: 0375,  Current object_det: 1.0, Current avg. object_det: 0.4965277777777778, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.007936507936507936 
+2023-11-07 21:12:22 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4831081081081081, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.007722007722007721 
+2023-11-07 21:12:28 Vid: 0231,  Current object_det: 1.0, Current avg. object_det: 0.4967105263157895, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.007518796992481203 
+2023-11-07 21:12:35 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.483974358974359, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.007326007326007326 
+2023-11-07 21:12:41 Vid: 0078,  Current object_det: 0.0, Current avg. object_det: 0.471875, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.007142857142857143 
+2023-11-07 21:12:47 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4603658536585366, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.006968641114982578 
+2023-11-07 21:12:54 Vid: 0495,  Current object_det: 1.0, Current avg. object_det: 0.4732142857142857, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.006802721088435374 
+2023-11-07 21:13:00 Vid: 0004,  Current object_det: 0.0, Current avg. object_det: 0.4622093023255814, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0066445182724252485 
+2023-11-07 21:13:07 Vid: 0197,  Current object_det: 1.0, Current avg. object_det: 0.4744318181818182, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.006493506493506493 
+2023-11-07 21:13:13 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4638888888888889, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.006349206349206349 
+2023-11-07 21:13:20 Vid: 0486,  Current object_det: 0.0, Current avg. object_det: 0.453804347826087, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.006211180124223602 
+2023-11-07 21:13:27 Vid: 0074,  Current object_det: 0.0, Current avg. object_det: 0.4441489361702128, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0060790273556231 
+2023-11-07 21:13:33 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4348958333333333, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005952380952380952 
+2023-11-07 21:13:40 Vid: 0536,  Current object_det: 1.0, Current avg. object_det: 0.44642857142857145, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0058309037900874635 
+2023-11-07 21:13:47 Vid: 0248,  Current object_det: 0.0, Current avg. object_det: 0.4375, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005714285714285714 
+2023-11-07 21:13:53 Vid: 0296,  Current object_det: 0.0, Current avg. object_det: 0.42892156862745096, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0056022408963585435 
+2023-11-07 21:13:59 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4206730769230769, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005494505494505494 
+2023-11-07 21:14:06 Vid: 0517,  Current object_det: 0.0, Current avg. object_det: 0.41273584905660377, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005390835579514824 
+2023-11-07 21:14:12 Vid: 0276,  Current object_det: 0.0, Current avg. object_det: 0.4050925925925926, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005291005291005291 
+2023-11-07 21:14:19 Vid: 0106,  Current object_det: 0.0, Current avg. object_det: 0.3977272727272727, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005194805194805195 
+2023-11-07 21:14:26 Vid: 0481,  Current object_det: 1.0, Current avg. object_det: 0.40848214285714285, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.00510204081632653 
+2023-11-07 21:14:33 Vid: 0060,  Current object_det: 1.0, Current avg. object_det: 0.41885964912280704, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.005012531328320802 
+2023-11-07 21:14:40 Vid: 0628,  Current object_det: 0.0, Current avg. object_det: 0.41163793103448276, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0049261083743842365 
+2023-11-07 21:14:46 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4046610169491525, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004842615012106537 
+2023-11-07 21:14:52 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.39791666666666664, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0047619047619047615 
+2023-11-07 21:14:58 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.39139344262295084, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.00468384074941452 
+2023-11-07 21:15:05 Vid: 0509,  Current object_det: 1.0, Current avg. object_det: 0.4012096774193548, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004608294930875576 
+2023-11-07 21:15:12 Vid: 0623,  Current object_det: 1.0, Current avg. object_det: 0.4107142857142857, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0045351473922902496 
+2023-11-07 21:15:19 Vid: 0606,  Current object_det: 1.0, Current avg. object_det: 0.419921875, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004464285714285714 
+2023-11-07 21:15:28 Vid: 0264,  Current object_det: 1.0, Current avg. object_det: 0.4288461538461538, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004395604395604396 
+2023-11-07 21:15:34 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.42234848484848486, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004329004329004329 
+2023-11-07 21:15:40 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.416044776119403, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0042643923240938165 
+2023-11-07 21:15:47 Vid: 0208,  Current object_det: 0.0, Current avg. object_det: 0.4099264705882353, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004201680672268907 
+2023-11-07 21:15:53 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.40398550724637683, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004140786749482401 
+2023-11-07 21:16:00 Vid: 0207,  Current object_det: 1.0, Current avg. object_det: 0.4125, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004081632653061224 
+2023-11-07 21:16:07 Vid: 0632,  Current object_det: 0.0, Current avg. object_det: 0.40669014084507044, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.004024144869215291 
+2023-11-07 21:16:13 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.4010416666666667, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003968253968253968 
+2023-11-07 21:16:19 Vid: 0461,  Current object_det: 1.0, Current avg. object_det: 0.4092465753424658, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003913894324853229 
+2023-11-07 21:16:26 Vid: 0539,  Current object_det: 0.0, Current avg. object_det: 0.40371621621621623, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0038610038610038607 
+2023-11-07 21:16:32 Vid: 0496,  Current object_det: 0.0, Current avg. object_det: 0.3983333333333333, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0038095238095238095 
+2023-11-07 21:16:39 Vid: 0421,  Current object_det: 1.0, Current avg. object_det: 0.40625, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0037593984962406013 
+2023-11-07 21:16:45 Vid: 0558,  Current object_det: 0.0, Current avg. object_det: 0.400974025974026, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0037105751391465673 
+2023-11-07 21:16:51 Vid: 0211,  Current object_det: 0.0, Current avg. object_det: 0.3958333333333333, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003663003663003663 
+2023-11-07 21:16:57 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.39082278481012656, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003616636528028933 
+2023-11-07 21:17:04 Vid: 0283,  Current object_det: 0.0, Current avg. object_det: 0.3859375, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.0035714285714285713 
+2023-11-07 21:17:11 Vid: 0631,  Current object_det: 1.0, Current avg. object_det: 0.39351851851851855, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003527336860670194 
+2023-11-07 21:17:17 Vid: 0197,  Current object_det: 0.0, Current avg. object_det: 0.38871951219512196, Current object_det_temp: 0.0, Current avg. object_det_temp: 0.003484320557491289 

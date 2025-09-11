@@ -1,0 +1,43 @@
+**/*~
+**/*.bk
+**/*.xx
+**/*.so
+**/*.ipynb
+**/*.log
+**/*.swp
+**/*.zip
+**/*.look
+**/*.lock
+**/*.think
+**/dosth.sh
+**/nohup.out
+**/*polaris*
+**/*egg*/
+**/cl5/
+**/tmp/
+**/look/
+**/temp/
+**/build/
+**/model/
+**/log/
+**/backup/
+**/outputs/
+**/work_dir/
+**/work_dirs/
+**/__pycache__/
+**/.ipynb_checkpoints/
+# *.jpg
+# *.png
+*.gif
+### PreCI ###
+.codecc
+
+.vscode/
+outputs
+weights
+third_party/weights
+scripts/inference.py
+
+## huggingface space 
+third_party/dust3r
+app_hg.py

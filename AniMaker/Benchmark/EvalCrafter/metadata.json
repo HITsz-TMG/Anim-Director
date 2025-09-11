@@ -1,0 +1,185 @@
+{
+    "0000": {
+        "prompt": "The little boy slowly bent down and looked at the small seedling in front of him with eyes mixed with joy and confusion.",
+        "attributes": {
+            "count": "1 seed",
+            "action": "bending down",
+            "amp": "slow"
+        }
+    },
+    "0001": {
+        "prompt": "The little boy stands up, turns back and runs to get the watering can.",
+        "attributes": {
+            "count": "1 watering can",
+            "action": "running",
+            "amp": "large"
+        }
+    },
+    "0002": {
+        "prompt": "The little boy approached the seedling and watered it.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "watering flowers",
+            "amp": "large"
+        }
+    },
+    "0003": {
+        "prompt": "The little boy lies down beside the seedling and talks to it. The sky gradually darkens until night falls.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "lying down",
+            "amp": "slow"
+        }
+    },
+    "0004": {
+        "prompt": "Close-up shot of a seedling slowly growing and blooming into a red rose.",
+        "attributes": {
+            "count": "1 red rose",
+            "amp": "slow"
+        }
+    },
+    "0005": {
+        "prompt": "The little boy leans over, gazes at the rose and says to it: You are so beautiful.",
+        "attributes": {
+            "count": "1 rose",
+            "action": "talking",
+            "amp": "slow"
+        }
+    },
+    "0006": {
+        "prompt": "The rose lowers its head, and the camera rotates rotates 180 degrees, with the rose swaying up and down.",
+        "attributes": {
+            "count": "1 rose",
+            "amp": "slow"
+        }
+    },
+    "0007": {
+        "prompt": "At night, under the starry sky, the rose trembles constantly, and the little boy leans over and looks at her with concern.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "leaning over",
+            "amp": "slow"
+        }
+    },
+    "0008": {
+        "prompt": "At night, under the starry sky, the little boy put a big glass cover on the rose.",
+        "attributes": {
+            "count": "1 glass cover",
+            "amp": "large"
+        }
+    },
+    "0009": {
+        "prompt": "The rose still seems dissatisfied, swaying proudly.",
+        "attributes": {
+            "count": "1 rose",
+            "amp": "slow"
+        }
+    },
+    "0010": {
+        "prompt": "The little boy stood up with a look of disappointment, turned back and walked away, the camera zoomed out.",
+        "attributes": {
+            "count": "1 rose",
+            "action": "standing up",
+            "amp": "large"
+        }
+    },
+    "0011": {
+        "prompt": "The little boy walks from the left side of the picture and greets the fox.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "greeting",
+            "amp": "large"
+        }
+    },
+    "0012": {
+        "prompt": "The little boy and the fox talked. The fox spoke first, and then the little prince.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "talking",
+            "amp": "slow"
+        }
+    },
+    "0013": {
+        "prompt": "The little boy and the fox started playing hide-and-seek, running here and there, and the camera gradually zoomed out.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "playing games",
+            "amp": "large"
+        }
+    },
+    "0014": {
+        "prompt": "The little boy walks from the left side of the picture, looking at the wall of roses in surprise.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "walking"
+        }
+    },
+    "0015": {
+        "prompt": "The little boy asked the roses around him in confusion: Who are you.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "speaking",
+            "amp": "slow"
+        }
+    },
+    "0016": {
+        "prompt": "The roses around swayed in the wind and answered: We are roses, the boy seems a little unhappy.",
+        "attributes": {
+            "amp": "slow"
+        }
+    },
+    "0017": {
+        "prompt": "The little boy's expression is mixed with confusion and frustration, he is downcast and talking to himself.",
+        "attributes": {
+            "action": "talking to oneself",
+            "amp": "slow"
+        }
+    },
+    "0018": {
+        "prompt": "The fox slowly approaches the sad little boy from a distance.",
+        "attributes": {
+            "count": "1 fox",
+            "amp": "slow"
+        }
+    },
+    "0019": {
+        "prompt": "The fox is saying something, and the little boy is thoughtful.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "listening",
+            "amp": "slow"
+        }
+    },
+    "0020": {
+        "prompt": "The fox continued to speak, and the little boy fell into deeper thought.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "listening",
+            "amp": "slow"
+        }
+    },
+    "0021": {
+        "prompt": "The little boy says something thoughtfully, the fox listens carefully, and the camera focused on the little boy.",
+        "attributes": {
+            "count": "1 boy",
+            "action": "speaking",
+            "amp": "slow"
+        }
+    },
+    "0022": {
+        "prompt": "The fox spoke to the little boy, who listened attentively and nodded.",
+        "attributes": {
+            "count": "1 fox",
+            "action": "listening",
+            "amp": "slow"
+        }
+    },
+    "0023": {
+        "prompt": "The camera zooms out, and in the picture the little boy slowly approaches the rose in the glass cover, which has a layer of white frost on it.",
+        "attributes": {
+            "count": "1 glass cover",
+            "action": "walking",
+            "amp": "slow"
+        }
+    }
+}

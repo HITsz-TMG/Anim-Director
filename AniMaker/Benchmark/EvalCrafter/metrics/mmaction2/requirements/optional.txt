@@ -1,0 +1,13 @@
+av>=9.0
+future
+imgaug
+librosa
+lmdb
+moviepy
+openai-clip
+packaging
+pims
+PyTurboJPEG
+soundfile
+tensorboard
+wandb

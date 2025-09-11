@@ -1,0 +1,11 @@
+{"id": {"a": "olis brown teddy bear", "b": "hta white robot toy"}}
+{"id": "a", "file_name": "a00.jpg", "mask_path": "mask_a00.jpg", "text": "A photo of a olis brown teddy bear perched on a rock with trees behind."}
+{"id": "a", "file_name": "a01.jpg", "mask_path": "mask_a01.jpg", "text": "A photo of a olis brown teddy bear on a ledge overlooking rippling water."}
+{"id": "a", "file_name": "a02.jpg", "mask_path": "mask_a02.jpg", "text": "A photo of a olis brown teddy bear on asphalt road, sitting alone on a street."}
+{"id": "a", "file_name": "a03.jpg", "mask_path": "mask_a03.jpg", "text": "A photo of a olis brown teddy bear resting on grass, under open skies."}
+{"id": "a", "file_name": "a04.jpg", "mask_path": "mask_a04.jpg", "text": "A photo of a olis brown teddy bear on pavement, wishing well with a brick wall behind."}
+{"id": "b", "file_name": "b00.jpg", "mask_path": "mask_b00.jpg", "text": "A photo of hta white robot toy poised on a textured grey sofa."}
+{"id": "b", "file_name": "b01.jpg", "mask_path": "mask_b01.jpg", "text": "A photo of hta white robot toy on a wooden slatted table, with a cream backdrop."}
+{"id": "b", "file_name": "b02.jpg", "mask_path": "mask_b02.jpg", "text": "A photo of hta white robot toy outdoors with autumn trees in the background."}
+{"id": "b", "file_name": "b03.jpg", "mask_path": "mask_b03.jpg", "text": "A photo of hta white robot toy seated on a mossy rock among pine needles."}
+{"id": "b", "file_name": "b04.jpg", "mask_path": "mask_b04.jpg", "text": "A photo of hta white robot toy on a rock with grass and leaves behind."}
