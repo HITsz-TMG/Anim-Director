@@ -61,22 +61,22 @@ Workflow
 ## 🎨 Comparison 
 <table class="center">
 <tr>
-<td style="text-align:center;width: 25%"><b>AniMaker</b></td>
 <td style="text-align:center;width: 25%"><b>MovieAgent</b></td>
 <td style="text-align:center;width: 25%"><b>MM-Story</b></td>
-<td style="text-align:center;width: 25%"><b>VideoGenoT (Ours)</b></td>
+<td style="text-align:center;width: 25%"><b>VideoGenoT</b></td>
+<td style="text-align:center;width: 25%"><b>AniMaker(Ours)</b></td>
 </tr>
 <tr>
-<td><video controls autoplay loop muted playsinline width="250"><source src="assets/AniMaker_78.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/MovieAgent_78.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/MMStoryAgent_78.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/VideoGenoT_78.mp4" type="video/mp4"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="assets/AniMaker_78.mp4" type="video/mp4"></video></td>
 </tr>
 <tr>
-<td><video controls autoplay loop muted playsinline width="250"><source src="assets/AniMaker_85.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/MovieAgent_85.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/MMStoryAgent_85.mp4" type="video/mp4"></video></td>
 <td><video controls autoplay loop muted playsinline width="250"><source src="assets/VideoGenoT_85.mp4" type="video/mp4"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="assets/AniMaker_85.mp4" type="video/mp4"></video></td>
 </tr>
 </table>
 
