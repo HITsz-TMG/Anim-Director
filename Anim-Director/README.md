@@ -23,14 +23,16 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 ## 💥 News
 
+- `2025/6/13`: 🎬 We release the paper of the newest version of Anim-Director, named [AniMaker](https://arxiv.org/pdf/2506.10540). The codes and evaluation framework will be released soon.
+
 - `2025/4/24`: 🎬 Our upgraded pipeline is nearly ready! Witness the magic as it transforms a few simple words into a complete animated short film ***Girl & Cat*** with zero human intervention! Click the image below to watch the film! 👇  
   <a href="https://www.youtube.com/watch?v=O8XLR1GdFUo" target="_blank">
-    <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/update/Girl%26Cat.png" width="450" />
+    <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/Anim-Director/update/Girl%26Cat.png" width="450" />
   </a>
 
 - `2025/2/21`: 🎬 We are in the process of completely updating our pipeline based on Vidu 2.0. Here is an animation sample featuring ***The Little Prince***. Click the image below to watch the video! 👇  
   <a href="https://www.youtube.com/watch?v=txj6GmYGBJw" target="_blank">
-    <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/update/TheLittlePrince.png" width="450" />
+    <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/Anim-Director/update/TheLittlePrince.png" width="450" />
   </a>
 
 ## 🎏 Abstract
