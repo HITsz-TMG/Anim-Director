@@ -179,6 +179,13 @@ cd Benchmark/EvalCrafter/checkpoints
 sh download.sh
 ```
 
+<h4>Prepare Checkpoints For MusIQ</h4>
+
+```bash
+cd Benchmark/MusIQ 
+sh download.sh
+```
+
 When you run the program for the first time, some additional checkpoints will be automatically downloaded.
 </details>
 
