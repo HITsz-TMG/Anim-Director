@@ -59,36 +59,41 @@ Workflow
 
 
 ## 🎨 Comparison 
-<div style="text-align:center">
-  <table cellspacing="0" cellpadding="5">
-    <!-- 第一行标题 -->
+<!-- 第一行标题 -->
+<div align="center">
+  <table>
     <tr>
       <td style="text-align:center;width: 25%"><b>MovieAgent</b></td>
       <td style="text-align:center;width: 25%"><b>MM-Story</b></td>
       <td style="text-align:center;width: 25%"><b>VideoGenoT</b></td>
       <td style="text-align:center;width: 25%"><b>AniMaker(Ours)</b></td>
     </tr>
+  </table>
+</div>
 
-    <!-- 第二行视频 -->
+<!-- 第一行视频 -->
+<div align="center">
+  <table>
     <tr>
-      <td><video src="https://github.com/user-attachments/assets/b34de38c-fe8b-49f0-b591-aaefa27a9d30" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/ada4a98c-2eb7-4f36-a941-c5ac6f4e1056" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/3de195b1-043e-46b8-a861-5aa0b9ae0c47" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/b215bc74-2d3b-45cf-9559-b1eb242612f5" controls width="250"></video></td>
-    </tr>
-
-    <!-- 第三行视频 -->
-    <tr>
-      <td><video src="https://github.com/user-attachments/assets/506fdc35-696d-453c-9774-2a1b577a986c" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/f0867e71-959d-4b77-a7a8-07b0ec2ff80c" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/2a7d064f-6a63-4d66-a069-50586e48bfc8" controls width="250"></video></td>
-      <td><video src="https://github.com/user-attachments/assets/cf27549c-a3cb-4672-a37b-1bec0f5cc5b8" controls width="250"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/b34de38c-fe8b-49f0-b591-aaefa27a9d30" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/ada4a98c-2eb7-4f36-a941-c5ac6f4e1056" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/3de195b1-043e-46b8-a861-5aa0b9ae0c47" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/b215bc74-2d3b-45cf-9559-b1eb242612f5" controls width="200" height="100"></video></td>
     </tr>
   </table>
 </div>
 
-
-
+<!-- 第二行视频 -->
+<div align="center">
+  <table>
+    <tr>
+      <td><video src="https://github.com/user-attachments/assets/506fdc35-696d-453c-9774-2a1b577a986c" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/f0867e71-959d-4b77-a7a8-07b0ec2ff80c" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/2a7d064f-6a63-4d66-a069-50586e48bfc8" controls width="200" height="100"></video></td>
+      <td><video src="https://github.com/user-attachments/assets/cf27549c-a3cb-4672-a37b-1bec0f5cc5b8" controls width="200" height="100"></video></td>
+    </tr>
+  </table>
+</div>
 
 
 
