@@ -41,7 +41,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 Unlike traditional methods that produce rigid and disjointed clips, AniMaker enables multi-candidate generation, intelligent clip selection, and global story-level consistency. It integrates specialized agents and novel evaluation strategies, achieving superior quality and efficiency compared to existing video generation approaches.
 
-Workflow
+**Workflow**
 
 · Director Agent: Generates the storyboard from the input text, defining multi-scene and multi-character narratives.
 
@@ -55,9 +55,8 @@ Workflow
 ## 🌈 Visualization
 
 <p align="center"> <img src="assets/visualization.png" width="700px"> </p>
-<!-- final decision后 这里加一个ytb链接，把做的sig asia demo放上去 -->
 
-We have recorded a video to introduce our work. Click the image below to watch the video! 👇  
+We have produced a video showcasing our work. Click the image below to watch the video! 👇  
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=hWflnJobPfQ" target="_blank">
