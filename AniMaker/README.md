@@ -2,8 +2,6 @@
 
 <h2><a href="https://arxiv.org/abs/2506.10540" target="_blank">AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation</a></h2>
  <b> SIGGRAPH Asia 2025 </b>
-<!-- ## <b><font color="red"> TaleCrafter </font>: Interactive Story Visualization with Multiple Characters</b> -->
-
 
 _**[Haoyuan Shi](https://github.com/HaoyuanShi), [Yunxin Li](https://yunxinli.github.io), Xinyu Chen, Longyue Wang, Baotian Hu*, and Min Zhang**_
   
@@ -16,9 +14,6 @@ Alibaba International Group
 🚀 Welcome to the repo of **AniMaker**.
 
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.  </h2>
-
-
-<!-- <p align="center"> <img src="assets/demo1.gif" width="700px"> </p> -->
  
 </div>
 
@@ -41,7 +36,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 ## 🎏 Overview
 
 <p align="center"> <img src="assets/pipeline.png" width="700px"> </p>
-AniMaker is a multi-agent framework designed to generate coherent, long-form storytelling animations from text. 
+**AniMaker is a multi-agent framework designed to generate coherent, long-form storytelling animations from text.** 
 
 Unlike traditional methods that produce rigid and disjointed clips, AniMaker enables multi-candidate generation, intelligent clip selection, and global story-level consistency. It integrates specialized agents and novel evaluation strategies, achieving superior quality and efficiency compared to existing video generation approaches.
 
@@ -60,6 +55,11 @@ Workflow
 
 <p align="center"> <img src="assets/visualization.png" width="700px"> </p>
 <!-- final decision后 这里加一个ytb链接，把做的sig asia demo放上去 -->
+
+We have recorded a video to introduce our work. Click the image below to watch the video! 👇  
+  <a href="https://www.youtube.com/watch?v=TRCZU3zBwpQ" target="_blank">
+    <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/AniMaker/assets/pipeline.png" width="700" />
+  </a>
 
 
 ## 🎨 Comparison 
