@@ -36,6 +36,7 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 ## 🎏 Overview
 
 <p align="center"> <img src="assets/pipeline.png" width="700px"> </p>
+
 **AniMaker is a multi-agent framework designed to generate coherent, long-form storytelling animations from text.** 
 
 Unlike traditional methods that produce rigid and disjointed clips, AniMaker enables multi-candidate generation, intelligent clip selection, and global story-level consistency. It integrates specialized agents and novel evaluation strategies, achieving superior quality and efficiency compared to existing video generation approaches.
@@ -57,9 +58,12 @@ Workflow
 <!-- final decision后 这里加一个ytb链接，把做的sig asia demo放上去 -->
 
 We have recorded a video to introduce our work. Click the image below to watch the video! 👇  
-  <a href="https://www.youtube.com/watch?v=TRCZU3zBwpQ" target="_blank">
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hWflnJobPfQ" target="_blank">
     <img src="https://github.com/HITsz-TMG/Anim-Director/blob/main/AniMaker/assets/pipeline.png" width="700" />
   </a>
+</p>
 
 
 ## 🎨 Comparison 
