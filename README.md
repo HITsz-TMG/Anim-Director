@@ -13,9 +13,9 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 **`2025.08.11`** 🎉 AniMaker is conditionally accepted by **Siggraph Asia 2025**.
 
-**`2025.06.10`** 🚀 We release AniMaker, a multi-agent framework designed to efficiently generate coherent, long-form storytelling animations from text input.
+**`2025.06.10`** 🚀 We release [AniMaker](https://github.com/HITsz-TMG/Anim-Director/tree/main/AniMaker), a multi-agent framework designed to efficiently generate coherent, long-form storytelling animations from text input.
 
-**`2024.08.09`** 🚀 We release Anim-Director, the first animation generation agent powered by LMM.
+**`2024.08.09`** 🚀 We release [Anim-Director](https://github.com/HITsz-TMG/Anim-Director/tree/main/Anim-Director), the first animation generation agent powered by LMM.
 
 **`2024.07.30`** 🎉 Anim-Director is conditionally accepted by **Siggraph Asia 2024**.
 
