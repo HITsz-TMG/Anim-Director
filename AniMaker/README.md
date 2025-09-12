@@ -46,9 +46,13 @@ AniMaker is a multi-agent framework designed to generate coherent, long-form sto
 Unlike traditional methods that produce rigid and disjointed clips, AniMaker enables multi-candidate generation, intelligent clip selection, and global story-level consistency. It integrates specialized agents and novel evaluation strategies, achieving superior quality and efficiency compared to existing video generation approaches.
 
 Workflow
+
 · Director Agent: Generates the storyboard from the input text, defining multi-scene and multi-character narratives.
+
 · Photography Agent: Uses MCTS-Gen, an MCTS-inspired strategy, to efficiently generate multiple candidate clips and select high-potential ones.
+
 · Reviewer Agent: Employs AniEval, the first evaluation framework for multi-shot animation, to assess story-level consistency, action completion, and animation features across clips.
+
 · Post-Production Agent: Edits the final sequence, ensures smooth transitions, and adds voiceovers for a production-quality output.
 
 
