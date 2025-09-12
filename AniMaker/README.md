@@ -67,16 +67,16 @@ Workflow
 <td style="text-align:center;width: 25%"><b>AniMaker(Ours)</b></td>
 </tr>
 <tr>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/b34de38c-fe8b-49f0-b591-aaefa27a9d30" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/ada4a98c-2eb7-4f36-a941-c5ac6f4e1056" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/3de195b1-043e-46b8-a861-5aa0b9ae0c47" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/b215bc74-2d3b-45cf-9559-b1eb242612f5" type="video/mp4"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/b34de38c-fe8b-49f0-b591-aaefa27a9d30"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/ada4a98c-2eb7-4f36-a941-c5ac6f4e1056"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/3de195b1-043e-46b8-a861-5aa0b9ae0c47"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/b215bc74-2d3b-45cf-9559-b1eb242612f5"></video></td>
 </tr>
 <tr>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/506fdc35-696d-453c-9774-2a1b577a986c" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/f0867e71-959d-4b77-a7a8-07b0ec2ff80c" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/2a7d064f-6a63-4d66-a069-50586e48bfc8" type="video/mp4"></video></td>
-<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/cf27549c-a3cb-4672-a37b-1bec0f5cc5b8" type="video/mp4"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/506fdc35-696d-453c-9774-2a1b577a986c"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/f0867e71-959d-4b77-a7a8-07b0ec2ff80c"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/2a7d064f-6a63-4d66-a069-50586e48bfc8"></video></td>
+<td><video controls autoplay loop muted playsinline width="250"><source src="https://github.com/user-attachments/assets/cf27549c-a3cb-4672-a37b-1bec0f5cc5b8"></video></td>
 </tr>
 </table>
 
