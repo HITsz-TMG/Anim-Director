@@ -82,7 +82,7 @@ Workflow
   </table>
 </div>
 
-
+Due to video size limitations, compressed versions are shown here. Original high-resolution videos can be found in the assets directory.
 
 ## ⚡️ Usage
 
