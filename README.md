@@ -11,6 +11,8 @@ If you appreciate our project, please consider giving us a star ⭐ on GitHub to
 
 ## 🔥 News
 
+**`2025.09.13`** ✨ The [AniMaker Homepage](https://animaker-dev.github.io/) is now live! 
+
 **`2025.08.11`** 🎉 AniMaker is conditionally accepted by **Siggraph Asia 2025**.
 
 **`2025.06.10`** 🚀 We release [AniMaker](https://github.com/HITsz-TMG/Anim-Director/tree/main/AniMaker), a multi-agent framework designed to efficiently generate coherent, long-form storytelling animations from text input.
