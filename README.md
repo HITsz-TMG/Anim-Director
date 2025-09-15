@@ -6,7 +6,7 @@
 <a src="https://img.shields.io/badge/cs.CV-2506.10540-b31b1b?logo=arxiv&logoColor=red" href="https://arxiv.org/abs/2506.10540"> <img src="https://img.shields.io/badge/cs.CV-2506.10540-b31b1b?logo=arxiv&logoColor=red">
 </a>
 
-Controllable Animation Video Generation with Large Models-based Multimodal Agents
+Controllable Animation Video Generation with Large Models-based Multimodal Agents. The long-term aim of this project is to construct a long video generation agent to help everyone become a director, visualising their ideas. 
 
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
 
