@@ -6,6 +6,8 @@
 <a src="https://img.shields.io/badge/cs.CV-2506.10540-b31b1b?logo=arxiv&logoColor=red" href="https://arxiv.org/abs/2506.10540"> <img src="https://img.shields.io/badge/cs.CV-2506.10540-b31b1b?logo=arxiv&logoColor=red">
 </a>
 
+Controllable Animation Video Generation with Large Models-based Multimodal Agents
+
 If you appreciate our project, please consider giving us a star ⭐ on GitHub to stay updated with the latest developments.
 
 
