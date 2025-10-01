@@ -42,3 +42,7 @@ If you find this project useful in your research, please consider cite:
   year={2025}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HITsz-TMG/Anim-Director&type=Date)](https://www.star-history.com/#HITsz-TMG/Anim-Director&Date)
