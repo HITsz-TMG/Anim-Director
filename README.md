@@ -36,7 +36,7 @@ If you find this project useful in your research, please consider cite:
 }
 
 @article{shi2025animaker,
-  title={AniMaker: Automated Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation},
+  title={AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation},
   author={Shi, Haoyuan and Li, Yunxin and Chen, Xinyu and Wang, Longyue and Hu, Baotian and Zhang, Min},
   journal={arXiv preprint arXiv:2506.10540},
   year={2025}
