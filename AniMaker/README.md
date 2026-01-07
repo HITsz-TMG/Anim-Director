@@ -220,10 +220,11 @@ To animate your own story, simply replace the default Pipeline/TinyStoriesV2-Cho
 
 ## Citation
 ```bib
-@article{shi2025animaker,
-  title={AniMaker: Automated Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation},
+@inproceedings{shi2025animaker,
+  title={AniMaker: Multi-Agent Animated Storytelling with MCTS-Driven Clip Generation},
   author={Shi, Haoyuan and Li, Yunxin and Chen, Xinyu and Wang, Longyue and Hu, Baotian and Zhang, Min},
-  journal={arXiv preprint arXiv:2506.10540},
+  booktitle={Proceedings of the SIGGRAPH Asia 2025 Conference Papers},
+  pages={1--11},
   year={2025}
 }
 ```
